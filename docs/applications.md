@@ -1,7 +1,9 @@
 # Applicatons
 
+## Inventory
+
 ```txt
-7z
+7-zip
 Azure CLI
 Chrome
 CPU-Z
