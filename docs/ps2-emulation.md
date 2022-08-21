@@ -29,3 +29,4 @@ Original disks can be saved as iso files on hard drive disks, with free tools li
 Name | Supported | Fix? | Links
 ---- | --------- | ---- | -----
 Godfather, The | Yes | Right click on the game in game list, Properties, Graphics, Rendering (check Manual Hardware Renderer Fixes), Hardware Fixes (Skipdraw Range: 1, 1) | [wiki.pcsx2.net](https://wiki.pcsx2.net/The_Godfather)
+Pro Evolution Soccer 6 | Yes | |
