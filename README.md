@@ -4,4 +4,4 @@ Setup of a Windows 10 workstation.
 
 ## Content
 
-* [Applications](docs/applications.md]
+* [Applications](docs/applications.md)
