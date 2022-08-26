@@ -30,6 +30,8 @@ Making a back-up of game saves in memory cards is not intended but there are way
 
 One solution is to use a preinstalled Free Memory Card Boot (FMCB), available to buy online, that contain several tools like uLaunchELF. Additional information from: [FreeMcBoot installers](https://israpps.github.io/FreeMcBoot-Installer/) ([GitHub](https://github.com/israpps/FreeMcBoot-Installer)). An example of using uLaunchELF: [How to Transfer PS2 Save Game Files from Memory Card To USB Using Free McBoot 2021](https://www.youtube.com/watch?v=vWy_QBeRA-g).
 
+File copied with pcuCopy can be then transferred to a PCSX2 memory card with [mymc](http://www.csclub.uwaterloo.ca:11068/mymc/) (solution found from [How to import PS2 Save Files for PCSX2 and AetherSX2 Emulators](https://www.youtube.com/watch?v=70YyoqXBy5A)).
+
 ## Games
 
 Name | Supported | Fix? | Links
