@@ -26,7 +26,9 @@ Original disks can be saved as iso files on hard drive disks, with free tools li
 
 ## Memory cards
 
-Making a back-up of game saves in memory cards is not intended but there are ways to do it. One solution is to use a preinstalled Free Memory Card Boot (FMCB), available to buy online, that contain several tools like uLaunchELF. Additional information from: [FreeMcBoot installers](https://israpps.github.io/FreeMcBoot-Installer/) ([GitHub](https://github.com/israpps/FreeMcBoot-Installer)).
+Making a back-up of game saves in memory cards is not intended but there are ways to do it.
+
+One solution is to use a preinstalled Free Memory Card Boot (FMCB), available to buy online, that contain several tools like uLaunchELF. Additional information from: [FreeMcBoot installers](https://israpps.github.io/FreeMcBoot-Installer/) ([GitHub](https://github.com/israpps/FreeMcBoot-Installer)). An example of using uLaunchELF: [How to Transfer PS2 Save Game Files from Memory Card To USB Using Free McBoot 2021](https://www.youtube.com/watch?v=vWy_QBeRA-g).
 
 ## Games
 
