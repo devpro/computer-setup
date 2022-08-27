@@ -20,6 +20,10 @@
 
 * [How Play PS2 Games In 4K On PC - PCSX2 Set Up Guide](https://www.youtube.com/watch?v=3rSiK2aO_5k)
 
+#### PCSX2 shortcuts
+
+* States: `F1` to save, `F3` to load
+
 ## Disks
 
 Original disks can be saved as iso files on hard drive disks, with free tools like [BurnAware](https://www.burnaware.com/).
@@ -36,5 +40,10 @@ Files copied with pcuCopy can then be transferred to a PCSX2 memory card with [m
 
 Name | Supported | Fix? | Links
 ---- | --------- | ---- | -----
+Burnout 2: Point of impact | Yes | |
+Crash Nitro Kart | Yes | |
+God of War | Yes | |
 Godfather, The | Yes | Right click on the game in game list, Properties, Graphics, Rendering (check Manual Hardware Renderer Fixes), Hardware Fixes (Skipdraw Range: 1, 1) | [wiki.pcsx2.net](https://wiki.pcsx2.net/The_Godfather)
 Pro Evolution Soccer 6 | Yes | |
+The Lord of the Rings: The Two Towers | Yes | |
+Theme Park World | Yes | |
