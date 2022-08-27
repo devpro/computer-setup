@@ -22,7 +22,7 @@
 
 #### PCSX2 shortcuts
 
-* States: `F1` to save, `F3` to load
+* [States](https://wiki.pcsx2.net/Savestate): `F1` to save, `F3` to load
 
 ## Disks
 
