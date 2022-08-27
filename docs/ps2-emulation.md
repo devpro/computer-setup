@@ -28,9 +28,9 @@ Original disks can be saved as iso files on hard drive disks, with free tools li
 
 Making a back-up of game saves in memory cards is not intended but there are ways to do it.
 
-One solution is to use a preinstalled Free Memory Card Boot (FMCB), available to buy online, that contain several tools like uLaunchELF. Additional information from: [FreeMcBoot installers](https://israpps.github.io/FreeMcBoot-Installer/) ([GitHub](https://github.com/israpps/FreeMcBoot-Installer)). An example of using uLaunchELF: [How to Transfer PS2 Save Game Files from Memory Card To USB Using Free McBoot 2021](https://www.youtube.com/watch?v=vWy_QBeRA-g).
+One solution is to use a preinstalled Free Memory Card Boot (FMCB), available to buy online, that contain several tools like uLaunchELF ([How to Transfer PS2 Save Game Files from Memory Card To USB Using Free McBoot 2021](https://www.youtube.com/watch?v=vWy_QBeRA-g)). Additional information from: [FreeMcBoot installers](https://israpps.github.io/FreeMcBoot-Installer/) ([GitHub](https://github.com/israpps/FreeMcBoot-Installer)). You'll only need a FAT32 USB drive (no format needed, just used to copy/paste).
 
-File copied with pcuCopy can be then transferred to a PCSX2 memory card with [mymc](http://www.csclub.uwaterloo.ca:11068/mymc/) (solution found from [How to import PS2 Save Files for PCSX2 and AetherSX2 Emulators](https://www.youtube.com/watch?v=70YyoqXBy5A)).
+Files copied with pcuCopy can then be transferred to a PCSX2 memory card with [mymc](http://www.csclub.uwaterloo.ca:11068/mymc/) (solution found from [How to import PS2 Save Files for PCSX2 and AetherSX2 Emulators](https://www.youtube.com/watch?v=70YyoqXBy5A)).
 
 ## Games
 
