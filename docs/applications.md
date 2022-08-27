@@ -36,3 +36,13 @@ Visual Studio Code
 Visual Studio 2022
 wget
 ```
+
+## Utilities
+
+### 7-zip
+
+* Unzip all files from a folder
+
+```dos
+"C:\Program Files\7-Zip\7z.exe" e *.zip
+```
