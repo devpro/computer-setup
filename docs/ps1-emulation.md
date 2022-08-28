@@ -18,4 +18,17 @@
 * Create `bios` folder and copy bios files inside
 * Open `duckstation-qt-x64-ReleaseLTCG.exe` and open Settings
   * In BIOS Settings, update bios location
-  * In Controller Settings, change controller type to Analog Controller (DualShock) and map the keys with your controller
+  * In Controller Settings, change controller type to Analog Controller (DualShock) and map the keys with your controller or load profile (below the mapping)
+  * In Game List Settings, add path to game files (bin/cue)
+ 
+## Disks
+
+Original disks can be saved as iso files on hard drive disks, with free tools like [BurnAware](https://www.burnaware.com/).
+ 
+## Memory cards
+ 
+## Games
+ 
+Name | Supported | Fix? | Links
+---- | --------- | ---- | -----
+Soul Blade | Yes | |
