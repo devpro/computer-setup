@@ -7,5 +7,6 @@ Setup of a Windows 10 workstation.
 ## Content
 
 * [Applications](docs/applications.md)
-* Emulation
-  * [PS2](docs/ps2-emulation.md)
+* [Emulation](docs/emulation.md)
+  * [Sony PlayStation 1](docs/ps1-emulation.md)
+  * [Sony PlayStation 2](docs/ps2-emulation.md)
