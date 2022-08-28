@@ -30,7 +30,7 @@
 
 ## Disks
 
-Original disks can be saved as iso files on hard drive disks, with free tools like [BurnAware](https://www.burnaware.com/).
+Original disks can be saved as iso files on hard drive disks, with free tools like [BurnAware](https://www.burnaware.com/). You may have issues with missing SBI files, you can find them at [psxdatacenter.com](http://psxdatacenter.com/sbifiles.html).
  
 ## Memory cards
  
@@ -38,4 +38,10 @@ Original disks can be saved as iso files on hard drive disks, with free tools li
  
 Name | Supported | Fix? | Links
 ---- | --------- | ---- | -----
+Boold Omen: Legacy of Kain | Yes | |
+Crash Team racing | Yes | |
+Driver | Yes | |
+Final Fantasy VII | Yes | |
+Final Fantasy VIII | Yes | |
+Rayman 2: The Great Escape | Yes | |
 Soul Blade | Yes | |
