@@ -20,7 +20,14 @@
   * In BIOS Settings, update bios location
   * In Controller Settings, change controller type to Analog Controller (DualShock) and map the keys with your controller or load profile (below the mapping)
   * In Game List Settings, add path to game files (bin/cue)
- 
+  * In Display Settings, enable VSync, specify adapter (if multiple video cards)
+  * In Enhancement Settings, update Internal Resolution Scale to 9x (fir 4K), Texture Filtering to xBR
+  * In General Settings, check Start Fullscreen
+
+#### DuckStation shortcuts
+
+* Full screen: `Alt`+`Enter` to exit
+
 ## Disks
 
 Original disks can be saved as iso files on hard drive disks, with free tools like [BurnAware](https://www.burnaware.com/).
