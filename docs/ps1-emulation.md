@@ -14,15 +14,15 @@
 
 #### DuckStation installation
 
-* Download from [GitHub Releases](https://github.com/stenzek/duckstation/releases/tag/latest) and unzip the file
+* Download from [GitHub Releases](https://github.com/stenzek/duckstation/releases/tag/latest), unzip the file and go in this directory
 * Create `bios` folder and copy bios files inside
 * Open `duckstation-qt-x64-ReleaseLTCG.exe` and open Settings
-  * In BIOS Settings, update bios location
-  * In Controller Settings, change controller type to Analog Controller (DualShock) and map the keys with your controller or load profile (below the mapping)
-  * In Game List Settings, add path to game files (bin/cue)
-  * In Display Settings, enable VSync, specify adapter (if multiple video cards)
-  * In Enhancement Settings, update Internal Resolution Scale to 9x (fir 4K), Texture Filtering to xBR
-  * In General Settings, check Start Fullscreen
+  * In "BIOS Settings", update bios location
+  * In "Controller Settings", change controller type to Analog Controller (DualShock) and map the keys with your controller or load profile (below the mapping)
+  * In "Game List Settings", add path to game files (bin/cue)
+  * In "Display Settings", enable VSync, specify adapter (if multiple video cards)
+  * In "Enhancement Settings", update Internal Resolution Scale to 9x (fir 4K), Texture Filtering to xBR
+  * In "General Settings", check Start Fullscreen
 
 #### DuckStation shortcuts
 
@@ -33,6 +33,12 @@
 Original disks can be saved as iso files on hard drive disks, with free tools like [BurnAware](https://www.burnaware.com/). You may have issues with missing SBI files, you can find them at [psxdatacenter.com](http://psxdatacenter.com/sbifiles.html).
  
 ## Memory cards
+
+Making a back-up of game saves in memory cards is not intended but there are ways to do it.
+
+One solution is to use a PS2 console with a preinstalled Free Memory Card Boot (see [PS2 emulation](ps2-emulation.md)). 
+
+Files copied with copy can then be transferred to a PS1 memory card (mcd) with [memcardrex]([http://www.csclub.uwaterloo.ca:11068/mymc/](https://github.com/ShendoXT/memcardrex)). The save can then be transferred to DuckStation memory file from DuckStation.
  
 ## Games
  
