@@ -16,7 +16,7 @@
 
 * Download from [GitHub Releases](https://github.com/stenzek/duckstation/releases/tag/latest), unzip the file and go in this directory
 * Create `bios` folder and copy bios files inside
-* Open `duckstation-qt-x64-ReleaseLTCG.exe` and open Settings
+* Open `duckstation-qt-x64-ReleaseLTCG.exe` and open Settings (ideas taken from [ETA PRIME video](https://www.youtube.com/watch?v=xdrKCfVohk4))
   * In "BIOS Settings", update bios location
   * In "Controller Settings", change controller type to Analog Controller (DualShock) and map the keys with your controller or load profile (below the mapping)
   * In "Game List Settings", add path to game files (bin/cue)
