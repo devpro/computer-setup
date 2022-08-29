@@ -38,7 +38,7 @@ Making a back-up of game saves in memory cards is not intended but there are way
 
 One solution is to use a PS2 console with a preinstalled Free Memory Card Boot (see [PS2 emulation](ps2-emulation.md)). 
 
-Files copied with copy can then be transferred to a PS1 memory card (mcd) with [memcardrex](https://github.com/ShendoXT/memcardrex). The save can then be transferred to DuckStation memory file from DuckStation.
+Files copied (with `copy` in uLaunchELF) can then be transferred to a PS1 memory card (mcd) with [memcardrex](https://github.com/ShendoXT/memcardrex). The save can then be transferred to DuckStation memory file from DuckStation.
  
 ## Games
  
