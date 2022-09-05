@@ -10,4 +10,4 @@ Setup of a Windows 10 workstation.
 * [Emulation](docs/emulation.md)
   * [Sony PlayStation 1](docs/ps1-emulation.md)
   * [Sony PlayStation 2](docs/ps2-emulation.md)
-* [Settings](docs/settings.md]
+* [Settings](docs/settings.md)
