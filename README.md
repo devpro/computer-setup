@@ -1,6 +1,6 @@
 # Workstation setup
 
-[![Deploy to GitHub Pages badge](https://github.com/devpro/windows10-setup/actions/workflows/pages.yml/badge.svg)](https://github.com/devpro/windows10-setup/actions/workflows/pages.yml)
+[![Pages](https://github.com/devpro/workstation-setup/actions/workflows/pages.yml/badge.svg)](https://github.com/devpro/workstation-setup/actions/workflows/pages.yml)
 
 ## Windows 10
 
