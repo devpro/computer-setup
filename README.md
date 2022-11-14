@@ -1,6 +1,6 @@
 # Workstation setup
 
-[![Pages](https://github.com/devpro/workstation-setup/actions/workflows/pages.yml/badge.svg)](https://github.com/devpro/workstation-setup/actions/workflows/pages.yml)
+[![Pages](https://github.com/devpro/workstation-setup/actions/workflows/pages.yml/badge.svg?branch=main)](https://github.com/devpro/workstation-setup/actions/workflows/pages.yml)
 
 ## Windows 10
 
