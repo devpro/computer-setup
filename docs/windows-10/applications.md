@@ -3,8 +3,6 @@
 ## Inventory
 
 ```txt
-7-zip
-Azure CLI
 Chrome
 CPU-Z
 .NET SDK
@@ -46,3 +44,9 @@ wget
 ```dos
 "C:\Program Files\7-Zip\7z.exe" e *.zip
 ```
+
+## Cloud Providers
+
+### Azure
+
+* [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/)
