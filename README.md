@@ -6,6 +6,4 @@
 
 * [Applications](docs/windows-10/applications.md)
 * [Emulation](docs/windows-10/emulation.md)
-  * [Sony PlayStation 1](docs/windows-10/ps1-emulation.md)
-  * [Sony PlayStation 2](docs/windows-10/ps2-emulation.md)
 * [Settings](docs/windows-10/settings.md)
