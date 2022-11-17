@@ -50,3 +50,9 @@ wget
 ### Azure
 
 * [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/)
+
+## Development
+
+### MariaDB
+
+* [Community Server](https://mariadb.com/downloads/community/) contains the GUI client
