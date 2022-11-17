@@ -55,4 +55,4 @@ wget
 
 ### MariaDB
 
-* [Community Server](https://mariadb.com/downloads/community/) contains the GUI client
+* [Community Server](https://mariadb.com/downloads/community/) contains the [GUI client](https://mariadb.com/docs/skysql/connect/clients/mariadb-client/)
