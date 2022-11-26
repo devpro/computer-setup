@@ -2,8 +2,15 @@
 
 ## Consoles
 
-* [Sony PlayStation 1](ps1-emulation.md)
-* [Sony PlayStation 2](ps2-emulation.md)
+* [Amiga](emulation/amiga.md)
+* Nintendo
+  * [Nintendo 64](emulation/n64.md)
+  * [Super Nintendo](emulation/snes.md)
+* Sega
+  * [Super Master System](emulation/sms.md)
+* Sony
+  * [Sony PlayStation 1](emulation/ps1.md)
+  * [Sony PlayStation 2](emulation/ps2.md)
 
 ## Retro games
 

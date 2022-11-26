@@ -1,4 +1,4 @@
-# Applicatons
+# Windows applicatons
 
 ## Inventory
 
