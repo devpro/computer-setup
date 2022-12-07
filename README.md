@@ -4,7 +4,7 @@
 
 ## Ubuntu 20.04
 
-* [Applications](docs/ubuntu-2004/applications.md)
+* [Packages](docs/ubuntu-2004/packages.md)
 
 ## Windows 10
 
