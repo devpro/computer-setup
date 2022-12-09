@@ -45,6 +45,10 @@ wget
 "C:\Program Files\7-Zip\7z.exe" e *.zip
 ```
 
+### Etcher
+
+* Download from [balenaEtcher](https://www.balena.io/etcher/) (see [Create a bootable USB stick with Rufus on Windows](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview))
+
 ## Cloud Providers
 
 ### Azure
