@@ -1,10 +1,18 @@
 # Install Ubuntu 20.04 packages
 
-### Ansible
+## Common
 
 ```bash
 sudo apt update
 sudo apt install software-properties-common
+sudo apt install -y jq
+```
+
+## Automation
+
+### Ansible
+
+```bash
 sudo add-apt-repository --yes --update ppa:ansible/ansible
 sudo apt install ansible
 ```
