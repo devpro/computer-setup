@@ -18,3 +18,11 @@ sudo apt install ansible
 ```
 
 → [docs.ansible.com](https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html#installing-ansible-on-ubuntu)
+
+## Kubernetes
+
+### kubectl
+
+### kubectx & kubens
+
+* [ahmetb/kubectx](https://github.com/ahmetb/kubectx)
