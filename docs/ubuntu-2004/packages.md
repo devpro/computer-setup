@@ -128,6 +128,18 @@ sudo apt-get update
 sudo apt-get install docker-ce-cli docker-compose-plugin
 ```
 
+#### Docker from Rancher Desktop
+
+- Fix permission error (see [Issue #1156](https://github.com/rancher-sandbox/rancher-desktop/issues/1156))
+
+```bash
+sudo groupadd docker
+sudo adduser $USER docker
+sudo chown root:docker /var/run/docker.sock
+sudo chmod g+w /var/run/docker.sock
+newgrp docker
+```
+
 ### Kubernetes
 
 #### kubectl
@@ -194,20 +206,6 @@ curl https://baltocdn.com/helm/signing.asc | gpg --dearmor | sudo tee /usr/share
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/helm.gpg] https://baltocdn.com/helm/stable/debian/ all main" | sudo tee /etc/apt/sources.list.d/helm-stable-debian.list
 sudo apt-get update
 sudo apt-get install helm
-```
-
-### Docker
-
-#### Docker from Rancher Desktop
-
-- Fix permission error (see [Issue #1156](https://github.com/rancher-sandbox/rancher-desktop/issues/1156))
-
-```bash
-sudo groupadd docker
-sudo adduser $USER docker
-sudo chown root:docker /var/run/docker.sock
-sudo chmod g+w /var/run/docker.sock
-newgrp docker
 ```
 
 #### K3s
