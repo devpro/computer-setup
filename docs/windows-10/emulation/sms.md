@@ -12,10 +12,11 @@
 
 ### Best-of
 
-Name |
-Action Fighter |
+Name                       |
+-------------------------- |
+Action Fighter             |
 Alex Kidd In Miracle World |
-Asterix |
-Shinobi |
-Sonic The Hedgehog |
-Sonic The Hedgehog 2 |
+Asterix                    |
+Shinobi                    |
+Sonic The Hedgehog         |
+Sonic The Hedgehog 2       |
