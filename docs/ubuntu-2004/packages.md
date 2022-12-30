@@ -10,7 +10,8 @@ sudo apt update
 sudo apt -y upgrade
 
 # installs common dependencies
-sudo apt install -y ca-certificates curl gnupg lsb-release apt-transport-https software-properties-common git wget nano libarchive-tools sshpass zip unzip jq
+sudo apt install -y ca-certificates curl gnupg lsb-release apt-transport-https software-properties-common \
+  git wget nano libarchive-tools sshpass zip unzip jq
 ```
 
 ## Programming languages
