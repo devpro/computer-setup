@@ -112,8 +112,10 @@ sudo apt install ansible
 
 #### Docker CLI & docker-compose
 
+- Install as packages (ref. [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/))
+
 ```bash
-# adds Docker’s official GPG key (ref. https://docs.docker.com/engine/install/ubuntu/)
+# adds Docker’s official GPG key
 sudo mkdir -p /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 
@@ -126,6 +128,13 @@ sudo apt-get update
 
 # installs the latest version of Docker CLI and Docker Compose
 sudo apt-get install docker-ce-cli docker-compose-plugin
+```
+
+- Make a quick check
+
+```bash
+# displays version
+docker --version
 ```
 
 #### Docker from Rancher Desktop
@@ -220,10 +229,9 @@ curl -sfL https://get.k3s.io | sh -
 
 /!\ isn't working with WSL2 and Rancher Desktop
 
-> kind is a tool for running local Kubernetes clusters using Docker container “nodes”.
-kind was primarily designed for testing Kubernetes itself, but may be used for local development or CI.
+> kind is a tool for running local Kubernetes clusters using Docker container “nodes”. kind was primarily designed for testing Kubernetes itself, but may be used for local development or CI.
 
-→ [kind.sigs.k8s.io](https://kind.sigs.k8s.io/) ([GitHub](https://github.com/kubernetes-sigs/kind))
+→ [kind.sigs.k8s.io](https://kind.sigs.k8s.io/), [code](https://github.com/kubernetes-sigs/kind)
 
 - Download & install (ref. [Installing From Release Binaries](https://kind.sigs.k8s.io/docs/user/quick-start#installing-from-release-binaries))
 
@@ -239,9 +247,13 @@ sudo mv ./kind /usr/local/bin/kind
 ```bash
 # checks kind is running ok
 kind version
+```
 
-# creates cluster configuration file (see https://kind.sigs.k8s.io/docs/user/configuration/#extra-port-mappings, https://kind.sigs.k8s.io/docs/user/using-wsl2/)
-cat > cluster-config.yml <<EOM
+- Create a local cluster (see [Extra Port Mappings](https://kind.sigs.k8s.io/docs/user/configuration/#extra-port-mappings), [Using WSL2](https://kind.sigs.k8s.io/docs/user/using-wsl2/))
+
+```bash
+# creates a cluster
+cat <<EOF | kind create cluster --config=-
 kind: Cluster
 apiVersion: kind.x-k8s.io/v1alpha4
 nodes:
@@ -252,10 +264,7 @@ nodes:
     protocol: TCP
 EOM
 
-# creates a cluster
-kind create cluster --config=cluster-config.yml
-
-# if there is an issue
+# (optional) creates a cluster to debug an issue
 kind create cluster --retain
 kind export logs
 
@@ -269,52 +278,16 @@ kubectl cluster-info --context kind-kind
 kind delete cluster
 ```
 
-## K3d
+- Create a cluster with Ingress (ref. [Kind > User Guide > Ingress](https://kind.sigs.k8s.io/docs/user/ingress/))
 
-> k3d is a lightweight wrapper to run k3s (Rancher Lab’s minimal Kubernetes distribution) in docker.
-
-→ [k3d.io](https://k3d.io/) ([GitHub](https://github.com/k3d-io/k3d))
+#### K3d
 
 ```bash
-# runs installation script
+# runs installation script (ref. https://k3d.io/v5.4.6/#install-current-latest-release)
 wget -q -O - https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
-
-# creates a cluster
-k3d cluster create twonodecluster -p "8081:80@loadbalancer" --agents 2
-
-# displays nodes
-kubectl config use-context k3d-twonodecluster
-kubectl get nodes
-
-# deploy a basic workflow (see https://k3d.io/v5.4.6/usage/exposing_services/)
-kubectl create deployment nginx --image=nginx
-kubectl create service clusterip nginx --tcp=80:80
-cat > nginx-ingress.yaml <<EOM
-apiVersion: networking.k8s.io/v1
-kind: Ingress
-metadata:
-  name: nginx
-  annotations:
-    ingress.kubernetes.io/ssl-redirect: "false"
-spec:
-  rules:
-  - http:
-      paths:
-      - path: /
-        pathType: Prefix
-        backend:
-          service:
-            name: nginx
-            port:
-              number: 80
-EOM
-kubectl apply -f nginx-ingress.yaml
-kubectl get all -A -o wide
-curl localhost:8081/
-
-# deletes a cluster
-k3d cluster delete twonodecluster
 ```
+
+→ [Cheat sheet](https://everyday-cheatsheets.docs.devpro.fr/build/containers-and-cloud-native/kubernetes/k3d)
 
 ## Cloud Providers
 
