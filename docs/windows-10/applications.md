@@ -106,7 +106,6 @@
   docker -c win ps
   ```
 
-* GeForce Experience
 * [Etcher](https://www.balena.io/etcher/)
   * [Create a bootable USB stick with Rufus on Windows](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview)
 * [Git for Windows](https://git-scm.com/download/win)
@@ -125,9 +124,8 @@
 * Greenshot
 * [Helm](https://helm.sh/docs/intro/install/)
 * Intel Driver and Support Assistant
-* Java
+* JRE
 * KeePass (or any other secret manager)
-* Killer Performanc eSuite
 * [Kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/)
 * [MariaDB Community Server](https://mariadb.com/downloads/community/) (to get the [GUI client](https://mariadb.com/docs/skysql/connect/clients/mariadb-client/))
 * minikube
@@ -157,7 +155,6 @@
 * [Rancher Desktop](https://rancherdesktop.io/) ([docs](https://docs.rancherdesktop.io/), [GitHub](https://github.com/rancher-sandbox/rancher-desktop/))
 * Steam
 * Ubisoft Connect
-* User BenchMark
 * Vagrant
 * [VLC](https://www.videolan.org/vlc/)
 * VirtualBox
@@ -165,6 +162,7 @@
   * Extensions: `EditorConfig for VS Code`, `Markdown Table Pretifier`, `markdownlist`, `YAML`
 * Visual Studio 2022
 * wget
+* WinMerge
 
 ### Chocolatey packages
 
