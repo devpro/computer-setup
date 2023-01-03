@@ -117,7 +117,7 @@ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] \
     sudo tee /etc/apt/sources.list.d/hashicorp.list
 sudo apt update
 sudo apt-get install terraform
-sudo apt-get install terraform
+terraform -help
 ```
 
 → [Install Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
