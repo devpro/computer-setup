@@ -128,6 +128,10 @@
 * KeePass (or any other secret manager)
 * [Kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/)
 * [MariaDB Community Server](https://mariadb.com/downloads/community/) (to get the [GUI client](https://mariadb.com/docs/skysql/connect/clients/mariadb-client/))
+* Microsoft Office
+  * Outlook
+    * [Change the temperature from Fahrenheit to Celsius](https://support.microsoft.com/en-au/office/change-the-temperature-from-fahrenheit-to-celsius-8303b0e2-644b-4ac3-954f-a478974b96c8)
+    * [Add timezone](https://support.microsoft.com/en-us/office/add-remove-or-change-time-zones-5ab3e10e-5a6c-46af-ab48-156fedf70c04]
 * minikube
 * [MongoDB Compass](https://www.mongodb.com/products/compass)
 * Mozilla Firefox
