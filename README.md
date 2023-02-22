@@ -11,3 +11,4 @@
 * [Applications](docs/windows-10/applications.md)
 * [Emulation](docs/windows-10/emulation.md)
 * [Settings](docs/windows-10/settings.md)
+* [Streaming](docs/windows-10/streaming.md)
