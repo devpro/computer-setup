@@ -121,6 +121,7 @@
 
 * GitKraken
 * Google Chrome
+  * Extensions: [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=en-US)
 * Greenshot
 * [Helm](https://helm.sh/docs/intro/install/)
 * Intel Driver and Support Assistant
