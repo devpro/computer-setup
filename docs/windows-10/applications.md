@@ -20,6 +20,9 @@
 
   REM sets default to version 2
   wsl --set-default-version 2
+  
+  REM updates the system (can fix start errors)
+  wsl.exe --update
   ```
 
   * Configure the access to WSL from Windows
