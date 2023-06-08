@@ -7,7 +7,7 @@
   * [Nintendo 64](emulation/n64.md)
   * [Super Nintendo](emulation/snes.md)
 * Sega
-  * [Super Master System](emulation/sms.md)
+  * [SEGA Master System](emulation/sms.md)
 * Sony
   * [Sony PlayStation 1](emulation/ps1.md)
   * [Sony PlayStation 2](emulation/ps2.md)
