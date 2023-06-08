@@ -112,7 +112,7 @@
 * [Etcher](https://www.balena.io/etcher/)
   * [Create a bootable USB stick with Rufus on Windows](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview)
 * [Git for Windows](https://git-scm.com/download/win)
-  * SSH key creation (in `Git Bash`)
+  * SSH key creation in `Git Bash` (see [Adding a new SSH key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/))
 
   ```bash
     # ED25519
@@ -125,12 +125,15 @@
 * GitKraken
 * Google Chrome
   * Extensions: [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=en-US)
-* Greenshot
+* [Greenshot](http://getgreenshot.org/downloads/)
 * [Helm](https://helm.sh/docs/intro/install/)
 * Intel Driver and Support Assistant
 * JRE
 * KeePass (or any other secret manager)
 * [Kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/)
+* Make (2 options)
+  * [MinGW](http://www.mingw.org/)
+  * [GnuWin](http://gnuwin32.sourceforge.net/)
 * [MariaDB Community Server](https://mariadb.com/downloads/community/) (to get the [GUI client](https://mariadb.com/docs/skysql/connect/clients/mariadb-client/))
 * Microsoft Office
   * Outlook
@@ -153,6 +156,7 @@
 
 * [Notepad++](https://notepad-plus-plus.org/)
 * [OBS Studio](https://obsproject.com/fr/)
+* [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_overview)
 * [Podman](https://podman.io/)
   * Download latest stable from [GitHub](https://github.com/containers/podman) releases page
   * Initalize a machine with `podman machine init` and start it with `podman machine start`
@@ -169,8 +173,12 @@
 * Visual Studio Code
   * Extensions: `EditorConfig for VS Code`, `Markdown Table Pretifier`, `markdownlist`, `YAML`
 * Visual Studio 2022
-* wget
+* [wget](https://www.gnu.org/software/wget/)
+  * solution found on [GitHub](https://github.com/cmderdev/cmder/issues/69)
+  * as indicated in the [faq](https://www.gnu.org/software/wget/faq.html#download) go to [eternallybored.org/misc/wget](https://eternallybored.org/misc/wget/) and download the latest x64 version
+  * extract the exe file and copy it in your local cmder installation bin directory
 * WinMerge
+* [zoomit](https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit)
 
 ### Chocolatey packages
 
@@ -195,4 +203,3 @@ choco install -y visualstudio2022buildtools nuget.commandline
 # installs Notepad++
 choco install notepadplusplus
 ```
-
