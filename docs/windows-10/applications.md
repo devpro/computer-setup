@@ -122,7 +122,7 @@
   ssh-keygen -t rsa -b 4096 -C "firstname.lastname@email.com"
   ```
 
-* GitKraken
+* [GitKraken](https://www.gitkraken.com/)
 * Google Chrome
   * Extensions: [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=en-US)
 * [Greenshot](http://getgreenshot.org/downloads/)
@@ -160,7 +160,7 @@
 * [Podman](https://podman.io/)
   * Download latest stable from [GitHub](https://github.com/containers/podman) releases page
   * Initalize a machine with `podman machine init` and start it with `podman machine start`
-* Postman
+* [Postman](https://www.postman.com/)
 * Process Explorer
 * [PsExec](https://learn.microsoft.com/en-us/sysinternals/downloads/psexec)
   * Run as a service account: `psexec -i -s cmd.exe`
@@ -170,7 +170,7 @@
 * Vagrant
 * [VLC](https://www.videolan.org/vlc/)
 * VirtualBox
-* Visual Studio Code
+* [Visual Studio Code](https://code.visualstudio.com/)
   * Extensions: `EditorConfig for VS Code`, `Markdown Table Pretifier`, `markdownlist`, `YAML`
 * Visual Studio 2022
 * [wget](https://www.gnu.org/software/wget/)
