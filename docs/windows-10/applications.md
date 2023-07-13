@@ -171,7 +171,7 @@
 * [VLC](https://www.videolan.org/vlc/)
 * VirtualBox
 * [Visual Studio Code](https://code.visualstudio.com/)
-  * Extensions: `EditorConfig for VS Code`, `Markdown Table Pretifier`, `markdownlist`, `YAML`
+  * Extensions: `CMake Language Support`, `CSS Formatter`, `Debbuger for Firefox`, `Dev Containers`, `Docker`, `EditorConfig for VS Code`, `Go`, `Kubernetes`, `Markdown Table Pretifier`, `markdownlint`, `MongoDB for VS Code`, `WSL`, `YAML`
 * Visual Studio 2022
 * [wget](https://www.gnu.org/software/wget/)
   * solution found on [GitHub](https://github.com/cmderdev/cmder/issues/69)
