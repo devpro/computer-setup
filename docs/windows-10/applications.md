@@ -76,10 +76,13 @@
 
 ## Inventory
 
-* 7-zip
+* [7-Zip](https://www.7-zip.org)
   * Unzip all files from a folder: `"C:\Program Files\7-Zip\7z.exe" e *.zip`
 * Acrobat Reader
 * [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/)
+* Bootable USD drive creators (2 options)
+  * [Etcher](https://www.balena.io/etcher/) (cross-platform)
+  * [Rufus](https://rufus.ie/) (more functionalities)
 * CPU-Z
 * [Draw.io Desktop](https://github.com/jgraph/drawio-desktop)
 * Docker Engine
@@ -122,6 +125,14 @@
   ssh-keygen -t rsa -b 4096 -C "firstname.lastname@email.com"
   ```
 
+  * Configure git (can be viewed & edited in `%userprofile%\.gitconfig`)
+
+  ```bash
+  # git config --global --edit
+  git config --global core.longpaths true
+  git config --global core.autocrlf false
+  ```
+
 * [GitKraken](https://www.gitkraken.com/)
 * Google Chrome
   * Extensions: [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=en-US)
@@ -129,7 +140,10 @@
 * [Helm](https://helm.sh/docs/intro/install/)
 * Intel Driver and Support Assistant
 * JRE
-* KeePass (or any other secret manager)
+* Password & secret manager
+  * [KeePass](https://keepass.info/)
+    * [Plugins](https://keepass.info/plugins.html): `KeePassHttp`
+    * [Google extensions](https://chrome.google.com/webstore/category/extensions): `KeePassHttp-Connector`
 * [Kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/)
 * Make (2 options)
   * [MinGW](http://www.mingw.org/)
@@ -141,7 +155,7 @@
     * [Add timezone](https://support.microsoft.com/en-us/office/add-remove-or-change-time-zones-5ab3e10e-5a6c-46af-ab48-156fedf70c04)
 * minikube
 * [MongoDB Compass](https://www.mongodb.com/products/compass)
-* Mozilla Firefox
+* [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
 * [NPM](https://nodejs.org/en/download/)
   * Edit files in nodejs folder to replace "-g" by "--location=global" (see [stackoverflow question #72401421](https://stackoverflow.com/questions/72401421/message-npm-warn-config-global-global-local-are-deprecated-use-loc))
   * Update packages
@@ -155,29 +169,31 @@
   ```
 
 * [Notepad++](https://notepad-plus-plus.org/)
-* [OBS Studio](https://obsproject.com/fr/)
+* [OBS Studio](https://obsproject.com/)
 * [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_overview)
 * [Podman](https://podman.io/)
   * Download latest stable from [GitHub](https://github.com/containers/podman) releases page
   * Initalize a machine with `podman machine init` and start it with `podman machine start`
 * [Postman](https://www.postman.com/)
-* Process Explorer
+* [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
 * [PsExec](https://learn.microsoft.com/en-us/sysinternals/downloads/psexec)
   * Run as a service account: `psexec -i -s cmd.exe`
 * [Rancher Desktop](https://rancherdesktop.io/) ([docs](https://docs.rancherdesktop.io/), [GitHub](https://github.com/rancher-sandbox/rancher-desktop/))
 * Steam
 * Ubisoft Connect
-* Vagrant
+* [Vagrant](https://www.vagrantup.com/downloads)
+  * Set `VAGRANT_DEFAULT_PROVIDER` environment variable to `virtualbox` or `hyperv` and restart Windows
+  * Look at the [cheat sheet](https://everyday-cheatsheets.docs.devpro.fr/run/virtualization/vagrant)
 * [VLC](https://www.videolan.org/vlc/)
-* VirtualBox
+* [VirtualBox]((https://www.virtualbox.org/wiki/Downloads))
 * [Visual Studio Code](https://code.visualstudio.com/)
-  * Extensions: `CMake Language Support`, `CSS Formatter`, `Debbuger for Firefox`, `Dev Containers`, `Docker`, `EditorConfig for VS Code`, `Go`, `Kubernetes`, `Markdown Table Pretifier`, `markdownlint`, `MongoDB for VS Code`, `WSL`, `YAML`
-* Visual Studio 2022
+  * Extensions: `CMake Language Support`, `CSS Formatter`, `Debbuger for Firefox`, `Dev Containers`, `Docker`, `EditorConfig for VS Code`, `Go`, `HashiCorp Terraform`, `Kubernetes`, `Markdown Table Pretifier`, `markdownlint`, `MongoDB for VS Code`, `WSL`, `YAML`
+* [Visual Studio 2022](https://visualstudio.microsoft.com/vs/community/)
 * [wget](https://www.gnu.org/software/wget/)
   * solution found on [GitHub](https://github.com/cmderdev/cmder/issues/69)
   * as indicated in the [faq](https://www.gnu.org/software/wget/faq.html#download) go to [eternallybored.org/misc/wget](https://eternallybored.org/misc/wget/) and download the latest x64 version
   * extract the exe file and copy it in your local cmder installation bin directory
-* WinMerge
+* [WinMerge](https://winmerge.org/)
 * [zoomit](https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit)
 
 ### Chocolatey packages
@@ -188,8 +204,18 @@
 # installs Chocolatey
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
+# installs Firefox
+choco install firefox
+
+# installs Windows Terminal
+choco install microsoft-windows-terminal
+
+# VSCode + Extensions (an example provided here)
+choco install vscode --params "/NoDesktopIcon"
+code --install-extension ms-vscode.powershell
+
 # installs git client
-choco install -y git
+choco install git.install --params "/GitOnlyOnPath /NoAutoCrlf /NoShellIntegration"
 
 # installs .NET Framework 4.8 developer pack
 choco install -y netfx-4.8-devpack
