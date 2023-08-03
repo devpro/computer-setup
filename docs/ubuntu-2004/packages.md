@@ -18,7 +18,7 @@ sudo apt install -y ca-certificates curl gnupg lsb-release apt-transport-https s
 
 ### .NET
 
-- Register the Microsoft package repository (ref. [docs.microsoft.com](https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu))
+- Register Microsoft's package repository (ref. [docs.microsoft.com](https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu))
 
 ```bash
 declare repo_version=$(if command -v lsb_release &> /dev/null; then lsb_release -r -s; else grep -oP '(?<=^VERSION_ID=).+' /etc/os-release | tr -d '"'; fi)
