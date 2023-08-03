@@ -178,7 +178,19 @@
 * [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
 * [PsExec](https://learn.microsoft.com/en-us/sysinternals/downloads/psexec)
   * Run as a service account: `psexec -i -s cmd.exe`
-* [Rancher Desktop](https://rancherdesktop.io/) ([docs](https://docs.rancherdesktop.io/), [GitHub](https://github.com/rancher-sandbox/rancher-desktop/))
+* Container engine & CLI
+  * Docker Desktop
+    * Fix permission error (see [Issue #1156](https://github.com/rancher-sandbox/rancher-desktop/issues/1156))
+
+    ```bash
+    sudo groupadd docker
+    sudo adduser $USER docker
+    sudo chown root:docker /var/run/docker.sock
+    sudo chmod g+w /var/run/docker.sock
+    newgrp docker
+    ```
+
+  * [Rancher Desktop](https://rancherdesktop.io/) ([docs](https://docs.rancherdesktop.io/), [GitHub](https://github.com/rancher-sandbox/rancher-desktop/))
 * Steam
 * Ubisoft Connect
 * [Vagrant](https://www.vagrantup.com/downloads)
