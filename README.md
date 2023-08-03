@@ -2,13 +2,14 @@
 
 [![Pages](https://github.com/devpro/workstation-setup/actions/workflows/pages.yml/badge.svg?branch=main)](https://github.com/devpro/workstation-setup/actions/workflows/pages.yml)
 
+You'll find here live documentation on how to setup a workstation.
+
 ## Ubuntu 20.04
 
-* [Packages](docs/ubuntu-2004/packages.md)
+* [**Setup**](docs/ubuntu-2004/setup.md)
 
 ## Windows 10
 
-* [Applications](docs/windows-10/applications.md)
-* [Emulation](docs/windows-10/emulation.md)
-* [Settings](docs/windows-10/settings.md)
+* [Gaming](docs/windows-10/gaming.md)
+* [**Setup**](docs/windows-10/setup.md)
 * [Streaming](docs/windows-10/streaming.md)

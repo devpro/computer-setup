@@ -1,4 +1,4 @@
-# Ubuntu 20.04 packages
+# Ubuntu 20.04 workstation setup
 
 ## Common packages
 
@@ -14,7 +14,7 @@ sudo apt install -y ca-certificates curl gnupg lsb-release apt-transport-https s
   git wget nano libarchive-tools sshpass zip unzip jq
 ```
 
-## Programming languages
+## Software development
 
 ### .NET
 

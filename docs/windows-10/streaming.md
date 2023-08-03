@@ -10,6 +10,19 @@
 
 ## Devices
 
-### Yeti X
+### Elgato Key Light Air
 
-* Driver: [Logitech G Hub](https://www.logitechg.com/en-us/innovation/g-hub.html)
+* Elgato Control Center
+
+### Insta360 Link (webcam)
+
+* Insta360 Link Controller
+
+### Samsung (monitor)
+
+* Easy Setting Box
+
+### Yeti X (micro)
+
+* Blue Sherpa
+* [Logitech G Hub](https://www.logitechg.com/en-us/innovation/g-hub.html)

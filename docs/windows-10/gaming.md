@@ -1,6 +1,12 @@
-# Emulation
+# Gaming on Windows 10
 
-## Consoles
+## Applications
+
+* Epic Games
+* Steam
+* Ubisoft Connect
+
+## Console emulation
 
 * [Amiga](emulation/amiga.md)
 * Nintendo
