@@ -1,6 +1,6 @@
-# Install Ubuntu 20.04 packages
+# Ubuntu 20.04 packages
 
-## Package update
+## Common packages
 
 ```bash
 # refreshes the list of available updates
@@ -15,6 +15,69 @@ sudo apt install -y ca-certificates curl gnupg lsb-release apt-transport-https s
 ```
 
 ## Programming languages
+
+## .NET
+
+- Register the Microsoft package repository (ref. [docs.microsoft.com](https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu))
+
+```bash
+declare repo_version=$(if command -v lsb_release &> /dev/null; then lsb_release -r -s; else grep -oP '(?<=^VERSION_ID=).+' /etc/os-release | tr -d '"'; fi)
+wget https://packages.microsoft.com/config/ubuntu/$repo_version/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+rm packages-microsoft-prod.deb
+sudo apt update
+```
+
+- Install .NET SDK
+
+```badh
+sudo apt-get install -y dotnet-sdk-7.0
+```
+
+### Go
+
+- Download & install Go (ref. [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-go-on-ubuntu-20-04), [linuxhint](https://linuxhint.com/install-go-ubuntu-2/))
+
+```bash
+# installs latest version (https://go.dev/dl/)
+curl -OL https://go.dev/dl/go1.19.3.linux-amd64.tar.gz
+sudo tar -C /usr/local -xvf go1.19.3.linux-amd64.tar.gz
+rm go1.19.3.linux-amd64.tar.gz
+```
+
+- Configure Python in `~/.profile`
+
+```ini
+export PATH=$PATH:/usr/local/go/bin
+```
+
+- Apply profile changes
+
+```bash
+source ~/.profile
+```
+
+- Display version
+
+```bash
+go version
+```
+
+### Node.js & NPM
+
+```bash
+# installs Node.js & NPM (ref. https://github.com/nodesource/distributions/blob/master/README.md#debinstall)
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash - && sudo apt-get install -y nodejs
+node --version
+npm -v
+
+# (optional) removes Node.JS
+sudo apt-get purge nodejs && rm -r /etc/apt/sources.list.d/nodesource.list
+sudo apt autoremove
+
+# installs NVM (ref. https://github.com/nvm-sh/nvm#installing-and-updating)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+```
 
 ### Python
 
@@ -50,52 +113,7 @@ curl -sS https://bootstrap.pypa.io/get-pip.py | python
 python -m pip install --upgrade pip
 ```
 
-### Go
-
-- Download & install Go (ref. [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-go-on-ubuntu-20-04), [linuxhint](https://linuxhint.com/install-go-ubuntu-2/))
-
-```bash
-# installs latest version (https://go.dev/dl/)
-curl -OL https://go.dev/dl/go1.19.3.linux-amd64.tar.gz
-sudo tar -C /usr/local -xvf go1.19.3.linux-amd64.tar.gz
-rm go1.19.3.linux-amd64.tar.gz
-```
-
-- Configure Python in `~/.profile`
-
-```ini
-export PATH=$PATH:/usr/local/go/bin
-```
-
-- Apply profile changes
-
-```bash
-source ~/.profile
-```
-
-- Display version
-
-```bash
-go version
-```
-
-### Node.js
-
-```bash
-# installs Node.js & NPM (ref. https://github.com/nodesource/distributions/blob/master/README.md#debinstall)
-curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash - && sudo apt-get install -y nodejs
-node --version
-npm -v
-
-# (optional) removes Node.JS
-sudo apt-get purge nodejs && rm -r /etc/apt/sources.list.d/nodesource.list
-sudo apt autoremove
-
-# installs NVM (ref. https://github.com/nvm-sh/nvm#installing-and-updating)
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
-```
-
-## Automation
+## Infrastructure automation
 
 ### Ansible
 
@@ -124,9 +142,7 @@ terraform -help
 
 ## Containerization
 
-### Docker
-
-#### Docker CLI & docker-compose
+### Docker CLI & docker-compose
 
 - Install as packages (ref. [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/))
 
@@ -153,18 +169,6 @@ sudo apt-get install docker-ce-cli docker-compose-plugin
 docker --version
 ```
 
-#### Docker from Rancher Desktop
-
-- Fix permission error (see [Issue #1156](https://github.com/rancher-sandbox/rancher-desktop/issues/1156))
-
-```bash
-sudo groupadd docker
-sudo adduser $USER docker
-sudo chown root:docker /var/run/docker.sock
-sudo chmod g+w /var/run/docker.sock
-newgrp docker
-```
-
 ### Kubernetes
 
 #### kubectl
@@ -173,8 +177,16 @@ newgrp docker
 # adds GPG key (ref. https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 sudo curl -fsSLo /etc/apt/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg
 echo "deb [signed-by=/etc/apt/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
+
+# installs
 sudo apt-get update
 sudo apt-get install -y kubectl
+
+# setups autocomplete
+source <(kubectl completion bash)
+echo "source <(kubectl completion bash)" >> ~/.bashrc
+alias k=kubectl
+complete -F __start_kubectl k
 ```
 
 → [kubernetes.io/docs](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#install-using-native-package-management)
@@ -301,13 +313,21 @@ kind delete cluster
 #### K3d
 
 ```bash
-# runs installation script (ref. https://k3d.io/v5.4.6/#install-current-latest-release)
+# runs installation script (ref. https://k3d.io/v5.5.2/#install-script)
 wget -q -O - https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
 ```
 
 → [Cheat sheet](https://everyday-cheatsheets.docs.devpro.fr/build/containers-and-cloud-native/kubernetes/k3d)
 
-## Cloud Providers
+## Datab stores
+
+### MongoDB
+
+```bash
+sudo apt install mongo-tools
+```
+
+## Cloud providers
 
 ### Azure CLI
 
@@ -320,3 +340,49 @@ az login
 ```
 
 → [Install the Azure CLI on Linux](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt)
+
+## Collaboration
+
+## tmate
+
+```bash
+sudo apt install tmate
+```
+
+→ [tmate.io](https://tmate.io/)
+
+## Virtualization
+
+### Packer
+
+- Install with apt (ref. [packer.io](https://www.packer.io/downloads))
+
+```bash
+curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+sudo apt-get update && sudo apt-get install packer
+```
+
+### Vagrant
+
+- Install Vagrant (ref. [vagrantup.com](https://www.vagrantup.com/downloads))
+
+```bash
+curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+sudo apt-get update && sudo apt-get install vagrant
+```
+
+- Configure Vagrant to use VirtualBox from Windows host for WSL (ref. [vagrantup.com/docs/other/wsl](https://www.vagrantup.com/docs/other/wsl))
+
+```bash
+echo 'export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"' >> ~/.bashrc
+echo 'export PATH="${PATH}:/mnt/c/Program Files/Oracle/VirtualBox"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+- Install Vagrant plugin for WSL2 (ref. [github.com/Karandash8/virtualbox_WSL2](https://github.com/Karandash8/virtualbox_WSL2))
+
+```bash
+vagrant plugin install virtualbox_WSL2
+```
