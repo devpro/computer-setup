@@ -171,7 +171,6 @@
 * Google Chrome
   * Extensions: [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=en-US)
 * [Greenshot](http://getgreenshot.org/downloads/)
-* [Helm](https://helm.sh/docs/intro/install/)
 * JRE
 * [KeePass](https://keepass.info/)
   * [Plugins](https://keepass.info/plugins.html): `KeePassHttp`
@@ -227,9 +226,28 @@
 
 ### Binaries in PATH
 
+* [Docker CLI](https://github.com/StefanScherer/docker-cli-builder/releases)
+  * Create an environment variable to access Docker engine running on WSL
+
+  Key         | Value
+  ----------- | --------------------
+  DOCKER_HOST | tcp://localhost:2375
+
+  * Make a check (the output doesn't display during the run, strange...)
+  
+  ```bash
+  docker run --name helloworld hello-world
+  docker logs helloworld
+  docker rm helloworld
+  ```
+  
+* [Helm](https://helm.sh/docs/intro/install/)
 * [Kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/)
+* kubeseal
+* mongosh
 * [PsExec](https://learn.microsoft.com/en-us/sysinternals/downloads/psexec)
   * Run as a service account: `psexec -i -s cmd.exe`
+* Terraform
 
 ### Chocolatey packages
 

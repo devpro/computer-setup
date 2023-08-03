@@ -179,7 +179,7 @@ sudo sh -c 'echo {\"hosts\": [\"unix:///var/run/docker.sock\", \"tcp://0.0.0.0:2
 sudo service docker start
 
 # checks docker is running ok
-sudo docker run hello-world
+sudo docker run --rm --name helloworld hello-world
 
 # if there are issues you can look at log files
 dmesg | grep docker
