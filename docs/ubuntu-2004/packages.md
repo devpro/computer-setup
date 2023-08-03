@@ -16,7 +16,7 @@ sudo apt install -y ca-certificates curl gnupg lsb-release apt-transport-https s
 
 ## Programming languages
 
-## .NET
+### .NET
 
 - Register the Microsoft package repository (ref. [docs.microsoft.com](https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu))
 
