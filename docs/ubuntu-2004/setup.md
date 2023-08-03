@@ -28,10 +28,11 @@ rm packages-microsoft-prod.deb
 sudo apt update
 ```
 
-- Install .NET SDK
+- Install .NET SDK and display the version
 
-```badh
+```bash
 sudo apt-get install -y dotnet-sdk-7.0
+dotnet --version
 ```
 
 ### Go
@@ -147,18 +148,20 @@ terraform -help
 - Add Docker's official GPG key & install docker CLI (ref. [docs.docker.com/engine/install/ubuntu](https://docs.docker.com/engine/install/ubuntu/))
 
 ```bash
-sudo mkdir -p /etc/apt/keyrings
+sudo install -m 0755 -d /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
-sudo apt-get install docker-ce-cli
+sudo apt-get install docker-ce-cli docker-buildx-plugin
+docker --version
 ```
 
 - Install docker-compose (ref. [docs.docker.com/compose/install](https://docs.docker.com/compose/install/))
 
 ```bash
-sudo apt-get docker-compose-plugin
-docker-compose --version
+sudo apt-get install docker-compose-plugin
+docker compose version
 ```
 
 - Install Docker engine (ref. [Install Docker on WSL2 (Ubuntu)](https://dev.to/bartr/install-docker-on-windows-subsystem-for-linux-v2-ubuntu-5dl7))
@@ -170,11 +173,7 @@ sudo apt install -y docker-ce containerd.io
 sudo usermod -aG docker ${USER}
 
 # create docker daemon file to expose 2375 (insecure, see https://stackoverflow.com/questions/63416280/how-to-expose-docker-tcp-socket-on-wsl2-wsl-installed-docker-not-docker-deskt)
-vi /etc/docker/daemon.json
-# {"hosts": ["unix:///var/run/docker.sock", "tcp://0.0.0.0:2375"]}
-
-# enables docker auto start by editing the user profile and exits
-echo "sudo service docker start" >> ~/.profile
+sudo sh -c 'echo {\"hosts\": [\"unix:///var/run/docker.sock\", \"tcp://0.0.0.0:2375\"]} > /etc/docker/daemon.json'
 
 # starts docker service
 sudo service docker start
@@ -187,11 +186,12 @@ dmesg | grep docker
 more /var/log/docker.log
 ```
 
-- Make a quick check
+- Edit `~/.profile` so Docker service is started if not running
 
-```bash
-# displays version
-docker --version
+```ini
+if service docker status 2>&1 | grep -q "is not running"; then
+  sudo service docker start
+fi
 ```
 
 ### Kubernetes
