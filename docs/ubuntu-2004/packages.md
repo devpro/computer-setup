@@ -45,7 +45,7 @@ sudo tar -C /usr/local -xvf go1.19.3.linux-amd64.tar.gz
 rm go1.19.3.linux-amd64.tar.gz
 ```
 
-- Configure Python in `~/.profile`
+- Configure Go in `~/.profile`
 
 ```ini
 export PATH=$PATH:/usr/local/go/bin
