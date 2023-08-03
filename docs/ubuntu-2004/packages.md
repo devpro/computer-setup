@@ -344,7 +344,7 @@ wget -q -O - https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
 
 → [Cheat sheet](https://everyday-cheatsheets.docs.devpro.fr/build/containers-and-cloud-native/kubernetes/k3d)
 
-## Datab stores
+## Data stores
 
 ### MongoDB
 
