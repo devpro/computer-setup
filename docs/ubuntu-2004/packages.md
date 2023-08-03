@@ -142,24 +142,49 @@ terraform -help
 
 ## Containerization
 
-### Docker CLI & docker-compose
+### Docker
 
-- Install as packages (ref. [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/))
+- Add Docker's official GPG key & install docker CLI (ref. [docs.docker.com/engine/install/ubuntu](https://docs.docker.com/engine/install/ubuntu/))
 
 ```bash
-# adds Docker’s official GPG key
 sudo mkdir -p /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
-
-# uses the following command to set up the repository
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
-  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-
-# updates the apt package index
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
+sudo apt-get install docker-ce-cli
+```
 
-# installs the latest version of Docker CLI and Docker Compose
-sudo apt-get install docker-ce-cli docker-compose-plugin
+- Install docker-compose (ref. [docs.docker.com/compose/install](https://docs.docker.com/compose/install/))
+
+```bash
+sudo apt-get docker-compose-plugin
+docker-compose --version
+```
+
+- Install Docker engine (ref. [Install Docker on WSL2 (Ubuntu)](https://dev.to/bartr/install-docker-on-windows-subsystem-for-linux-v2-ubuntu-5dl7))
+
+```bash
+sudo apt install -y docker-ce containerd.io
+
+# adds the user to docker group so sudo won't be required
+sudo usermod -aG docker ${USER}
+
+# create docker daemon file to expose 2375 (insecure, see https://stackoverflow.com/questions/63416280/how-to-expose-docker-tcp-socket-on-wsl2-wsl-installed-docker-not-docker-deskt)
+vi /etc/docker/daemon.json
+# {"hosts": ["unix:///var/run/docker.sock", "tcp://0.0.0.0:2375"]}
+
+# enables docker auto start by editing the user profile and exits
+echo "sudo service docker start" >> ~/.profile
+
+# starts docker service
+sudo service docker start
+
+# checks docker is running ok
+sudo docker run hello-world
+
+# if there are issues you can look at log files
+dmesg | grep docker
+more /var/log/docker.log
 ```
 
 - Make a quick check
