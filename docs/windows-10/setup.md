@@ -56,6 +56,7 @@
 ## Windows store
 
 - `Microsoft Photos`
+- `Microsoft Clipchamp`
 - `Ubuntu on Windows`
   - Once installed, look at [Ubuntu setup]([#ubuntu-2004](https://devpro.github.io/workstation-setup/docs/ubuntu-2004/packages.html))
   - Open a shell in Ubuntu and create or update `/etc/wsl.conf` file to enable chmod (required for SSH) and avoid issues with npm commands (see [Advanced settings configuration in WSL](https://docs.microsoft.com/en-us/windows/wsl/wsl-config))
