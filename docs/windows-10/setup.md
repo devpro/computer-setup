@@ -283,3 +283,19 @@ choco install -y visualstudio2022buildtools nuget.commandline
 # installs Notepad++
 choco install -y notepadplusplus
 ```
+
+### Oldies
+
+* ACDSee
+* CCleaner
+* ColorPic
+* DaemonTools
+* Everest Ultimate
+* FileZilla
+* Gadwin PrintScreen
+* HDGraph
+* Magic Draw
+* Partition Magic
+* PDF Creator
+* TestDisk
+* Winamp
