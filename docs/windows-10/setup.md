@@ -294,8 +294,15 @@ choco install -y notepadplusplus
 * FileZilla
 * Gadwin PrintScreen
 * HDGraph
+* K-Lite Codec Pack
 * Magic Draw
 * Partition Magic
 * PDF Creator
+* Picasa
+* QuickTime
 * TestDisk
+* Toad
+* UltraEdit
+* VirtualDub
 * Winamp
+* XML Spy
