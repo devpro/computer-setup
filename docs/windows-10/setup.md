@@ -284,6 +284,12 @@ choco install -y visualstudio2022buildtools nuget.commandline
 choco install -y notepadplusplus
 ```
 
+### Utilities
+
+#### Hard Drive Backup
+
+* [Unstoppable Copier](https://www.roadkil.net/)
+
 ### Oldies
 
 * ACDSee
