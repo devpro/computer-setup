@@ -172,7 +172,7 @@
 * Google Chrome
   * Extensions: [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=en-US)
 * [Greenshot](http://getgreenshot.org/downloads/)
-* JRE
+* Java Runtime Environment (JRE)
 * [KeePass](https://keepass.info/)
   * [Plugins](https://keepass.info/plugins.html): `KeePassHttp`
   * [Google extensions](https://chrome.google.com/webstore/category/extensions): `KeePassHttp-Connector`
