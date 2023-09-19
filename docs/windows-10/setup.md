@@ -8,7 +8,11 @@
   * Lenovo Service Bridge
   * Lenovo System Update
   * Lenovo Vantage
+* NETGEAR
+  * [NETGEAR Switch Discovery Tool (NSDT)](https://www.netgear.com/support/product/netgear-switch-discovery-tool)
 * NVIDIA
+  * NVIDIA Control Panel
+  * NVIDIA RTX Desktop Manager
 
 ## Windows features
 
