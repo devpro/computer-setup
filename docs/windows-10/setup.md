@@ -221,6 +221,10 @@
 * [Visual Studio Code](https://code.visualstudio.com/)
   * Extensions: `CMake Language Support`, `CSS Formatter`, `Debbuger for Firefox`, `Dev Containers`, `Docker`, `EditorConfig for VS Code`, `Go`, `HashiCorp Terraform`, `Kubernetes`, `Markdown Table Pretifier`, `markdownlint`, `MongoDB for VS Code`, `WSL`, `YAML`
 * [Visual Studio 2022](https://visualstudio.microsoft.com/vs/community/)
+  * Self-generated certificate for .NET (ref. [stackoverflow.com/questions/56409580](https://stackoverflow.com/questions/56409580/trouble-trusting-local-https-certificate-in-asp-net-core))
+    * Execute "certlm.msc" to open the certificate manager
+    * Go to Personal/Certificates and locate localhost certificate
+    * Move the certificate to "Trusted Root Certification Authorities/Certificates"
 * VLC
 * [wget](https://www.gnu.org/software/wget/)
   * solution found on [GitHub](https://github.com/cmderdev/cmder/issues/69)
