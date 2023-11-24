@@ -212,6 +212,22 @@
   * Initalize a machine with `podman machine init` and start it with `podman machine start`
 * [Postman](https://www.postman.com/)
 * [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
+* [Puppet Agent](https://www.puppet.com/docs/puppet/7/install_agents.html#install_windows_agents)
+* [Puppet Development Kit](https://www.puppet.com/downloads/puppet-development-kit)
+* [Ruby](https://www.ruby-lang.org/)
+
+  ```bash
+  # looks for the available versions
+  winget search RubyInstallerTeam.Ruby
+
+  # installs a specific version and restarts the terminal
+  winget install RubyInstallerTeam.Ruby.3.2
+
+  # makes sure ruby is available from the terminal
+  ruby -v
+  gem -v
+  ```
+  
 * Slack
 * [Vagrant](https://www.vagrantup.com/downloads)
   * Set `VAGRANT_DEFAULT_PROVIDER` environment variable to `virtualbox` or `hyperv` and restart Windows
@@ -220,6 +236,33 @@
 * [VirtualBox]((https://www.virtualbox.org/wiki/Downloads))
 * [Visual Studio Code](https://code.visualstudio.com/)
   * Extensions: `CMake Language Support`, `CSS Formatter`, `Debbuger for Firefox`, `Dev Containers`, `Docker`, `EditorConfig for VS Code`, `Go`, `HashiCorp Terraform`, `Kubernetes`, `Markdown Table Pretifier`, `markdownlint`, `MongoDB for VS Code`, `WSL`, `YAML`
+  * `setttings.json`:
+ 
+  ```json
+  {
+    "editor.minimap.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "redhat.telemetry.enabled": false,
+    "mdb.confirmRunAll": false,
+    "[markdown]": {
+      "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "[python]": {
+      "editor.formatOnType": true
+    },
+    "playwright.reuseBrowser": true,
+    "vs-kubernetes": {
+      "vs-kubernetes.crd-code-completion": "disabled"
+    },
+    "workbench.colorTheme": "Visual Studio Dark",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "git.openRepositoryInParentFolders": "never",
+    "puppet.installDirectory": "C:\\Programs\\PuppetDevelopmentKit",
+    "puppet.installType": "pdk",
+  }
+  ```
+  
 * [Visual Studio 2022](https://visualstudio.microsoft.com/vs/community/)
   * Self-generated certificate for .NET (ref. [stackoverflow.com/questions/56409580](https://stackoverflow.com/questions/56409580/trouble-trusting-local-https-certificate-in-asp-net-core))
     * Execute "certlm.msc" to open the certificate manager
