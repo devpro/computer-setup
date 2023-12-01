@@ -194,6 +194,13 @@ if service docker status 2>&1 | grep -q "is not running"; then
 fi
 ```
 
+- If Ubuntu is running in WSL2, run `sudo visudo` to add the following line at the end
+
+```ini
+# Docker
+bthomas ALL = (root) NOPASSWD: /usr/sbin/service docker *
+```
+
 ### Kubernetes
 
 #### kubectl
