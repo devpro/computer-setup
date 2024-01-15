@@ -448,3 +448,11 @@ source ~/.bashrc
 ```bash
 vagrant plugin install virtualbox_WSL2
 ```
+
+## Common actions
+
+### Rename computer name
+
+```bash
+hostnamectl set-hostname 'new-hostname'
+```
