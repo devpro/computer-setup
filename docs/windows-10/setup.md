@@ -363,3 +363,7 @@ choco install -y notepadplusplus
 * VirtualDub
 * Winamp
 * XML Spy
+
+## Configuration
+
+* Control Panel / User Accounts /Credential Manager
