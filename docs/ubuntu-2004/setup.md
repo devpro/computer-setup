@@ -231,6 +231,12 @@ fi
 bthomas ALL = (root) NOPASSWD: /usr/sbin/service docker *
 ```
 
+- Add alias in `~/.bash_aliases` file (create it if it doesn't exist)
+
+```bash
+alias trivy="docker run -it --rm -v trivy-cache:/root/.cache/ -v /var/run/docker.sock:/var/run/docker.sock:ro -v $HOME/.kube/config:/root/.kube/config aquasec/trivy:latest"
+```
+
 ### Kubernetes
 
 #### kubectl
