@@ -238,14 +238,13 @@
 * [VirtualBox]((https://www.virtualbox.org/wiki/Downloads))
 * [Visual Studio Code](https://code.visualstudio.com/)
   * Extensions: `CMake Language Support`, `CSS Formatter`, `Debbuger for Firefox`, `Dev Containers`, `Docker`, `EditorConfig for VS Code`, `Go`, `HashiCorp Terraform`, `Kubernetes`, `Markdown Table Pretifier`, `markdownlint`, `MongoDB for VS Code`, `WSL`, `YAML`
-  * `setttings.json`:
+  * User > `setttings.json`:
  
   ```json
   {
     "editor.minimap.enabled": false,
     "security.workspace.trust.untrustedFiles": "open",
     "redhat.telemetry.enabled": false,
-    "mdb.confirmRunAll": false,
     "[markdown]": {
       "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
     },
@@ -262,6 +261,23 @@
     "git.openRepositoryInParentFolders": "never",
     "puppet.installDirectory": "C:\\Programs\\PuppetDevelopmentKit",
     "puppet.installType": "pdk",
+  }
+  ```
+
+  * Workspace > `settings.json`:
+
+  ```json
+  {
+  	"folders": [
+      ...
+  	],
+  	"settings": {
+  		...
+  		"vs-kubernetes": {
+  			"disable-linters": ["resource-limits"],
+        ...
+  		}
+  	}
   }
   ```
   
