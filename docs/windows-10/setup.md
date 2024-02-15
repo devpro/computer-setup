@@ -268,16 +268,16 @@
 
   ```json
   {
-  	"folders": [
+    "folders": [
       ...
-  	],
-  	"settings": {
-  		...
-  		"vs-kubernetes": {
-  			"disable-linters": ["resource-limits"],
+    ],
+    "settings": {
+      ...
+      "vs-kubernetes": {
+        "disable-linters": ["resource-limits"],
         ...
-  		}
-  	}
+      }
+    }
   }
   ```
   
