@@ -177,6 +177,7 @@
 * [GitKraken](https://www.gitkraken.com/)
 * Google Chrome
   * Extensions: [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=en-US)
+  * Enable experimental features (like dark mode) [chrome://flags](chrome://flags/)
 * [Greenshot](http://getgreenshot.org/downloads/)
 * Java Runtime Environment (JRE)
 * [KeePass](https://keepass.info/)
