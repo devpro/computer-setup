@@ -241,6 +241,8 @@ alias trivy="docker run -it --rm -v trivy-cache:/root/.cache/ -v /var/run/docker
 
 #### kubectl
 
+* Official procedure
+
 ```bash
 # adds GPG key (ref. https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 sudo curl -fsSLo /etc/apt/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg
@@ -258,6 +260,14 @@ complete -F __start_kubectl k
 ```
 
 → [kubernetes.io/docs](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#install-using-native-package-management)
+
+* Azure procedure (to have kubeconfig, mandatory for clusters using Azure RBAC)
+
+```bash
+sudo az aks install-cli
+```
+
+→ [azure.github.io/kubelogin](https://azure.github.io/kubelogin/install.html)
 
 #### krew
 
