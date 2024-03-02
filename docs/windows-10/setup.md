@@ -180,6 +180,8 @@
   * Enable experimental features (like dark mode) [chrome://flags](chrome://flags/)
 * [Greenshot](http://getgreenshot.org/downloads/)
 * Java Runtime Environment (JRE)
+* [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/)
+  * [JetBrains Licenses](https://account.jetbrains.com/licenses)
 * [KeePass](https://keepass.info/)
   * [Plugins](https://keepass.info/plugins.html): `KeePassHttp`
   * [Google extensions](https://chrome.google.com/webstore/category/extensions): `KeePassHttp-Connector`
