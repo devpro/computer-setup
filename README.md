@@ -13,3 +13,4 @@ You'll find here live documentation on how to setup a workstation.
 * [Gaming](docs/windows-10/gaming.md)
 * [**Setup**](docs/windows-10/setup.md)
 * [Streaming](docs/windows-10/streaming.md)
+* [Virtualization](docs/windows-10/virtualization.md)
