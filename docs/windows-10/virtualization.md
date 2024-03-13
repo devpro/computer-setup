@@ -10,7 +10,7 @@ Connect to the machine and enable SSH.
 
 ```bash
 sudo apt install openssh-server
-ip -a
+ip a
 ```
 
 From Windows 10, connect to the machine:
