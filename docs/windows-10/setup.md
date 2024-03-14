@@ -63,6 +63,13 @@
 * `Windows Settings` > `System` > `Display` > `Graphics settings` > `Graphics performance preference`
   * Select an application and explicitely set it to run on High performance
 
+* Powershell
+  * Open `<Path_to_Documents>\WindowsPowerShell\Microsoft.PowerShell_profile.ps1` in Visual Studio Code
+
+  ```bash
+  code $PROFILE
+  ```
+
 ## Windows store
 
 - `Microsoft Photos`
