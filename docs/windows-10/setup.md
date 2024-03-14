@@ -46,6 +46,12 @@
   New-NetFirewallRule -DisplayName "WSL" -Direction Inbound -InterfaceAlias "vEthernet (WSL)" -Action Allow
   ```
 
+  * Look at the available options to configure
+ 
+  ```bash
+  strings "/mnt/c/Program Files/WSL/wslservice.exe" | egrep "^wsl2\.|^experimental\."
+  ```
+
 ## Windows optional features
 
 * [OpenSSH](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui#install-openssh-for-windows)
