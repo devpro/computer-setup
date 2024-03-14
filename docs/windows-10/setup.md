@@ -51,6 +51,33 @@
   ```bash
   strings "/mnt/c/Program Files/WSL/wslservice.exe" | egrep "^wsl2\.|^experimental\."
   ```
+  
+  * Configure WSL in `C:\Users\<username>\.wslconfig` (create the file and restart WSL afterwards)
+ 
+  ```ini
+  [wsl2]
+  memory=12GB
+  swap=0GB
+  debugConsole=false
+  localhostforwarding=true
+  # nestedVirtualization=true doesn't work
+  nestedVirtualization=false
+  vmIdleTimeout=60000
+  safeMode=false
+  # options: NAT (default), mirrored, bridged
+  networkingMode=NAT
+  # networkingMode=bridged
+  # vmSwitch="Internet"
+  
+  [experimental]
+  # default: true
+  autoMemoryReclaim=dropcache
+  # default: false
+  sparseVhd=true
+  # ignoredPorts=
+  # default: false
+  hostAddressLoopback=true
+  ```
 
 ## Windows optional features
 
