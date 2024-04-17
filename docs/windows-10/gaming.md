@@ -2,6 +2,7 @@
 
 ## Applications
 
+* [NVIDIA GeForce NOW](https://www.nvidia.com/en-us/geforce-now/download/)
 * Epic Games
 * Steam
 * Ubisoft Connect
