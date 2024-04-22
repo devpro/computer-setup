@@ -237,6 +237,8 @@ bthomas ALL = (root) NOPASSWD: /usr/sbin/service docker *
 alias trivy="docker run -it --rm -v trivy-cache:/root/.cache/ -v /var/run/docker.sock:/var/run/docker.sock:ro -v $HOME/.kube/config:/root/.kube/config aquasec/trivy:latest"
 ```
 
+See also: [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04)
+
 ### Kubernetes
 
 #### kubectl
