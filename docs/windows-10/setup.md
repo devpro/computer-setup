@@ -335,6 +335,12 @@
   * as indicated in the [faq](https://www.gnu.org/software/wget/faq.html#download) go to [eternallybored.org/misc/wget](https://eternallybored.org/misc/wget/) and download the latest x64 version
   * extract the exe file and copy it in your local cmder installation bin directory
 * [WinMerge](https://winmerge.org/)
+* [yq](https://github.com/mikefarah/yq)
+
+  ```cmd
+  winget install --id MikeFarah.yq
+  ```
+  
 * [zoomit](https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit)
 
 ### Binaries in PATH
