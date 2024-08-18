@@ -27,6 +27,8 @@ From Windows settings > Graphics settings, browse `C:\Program Files (x86)\Steam\
 
 From the explorer, right click on the `DungeonSiege.exe` file and select **Troubleshoot compatibility***. The wizard will select Windows 7 settings.
 
+In Steam, add the launch options `nointro=true` (`width=1920 height=1080` makes the game crash).
+
 ## Retro games
 
 * [/r/Roms Megathread](https://r-roms.github.io/)
