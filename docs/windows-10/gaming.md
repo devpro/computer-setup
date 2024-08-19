@@ -23,16 +23,18 @@
 
 ## Dungeon Siege
 
-In **File Explorer**, go to `C:\Program Files (x86)\Steam\steamapps\common\Dungeon Siege 1` and run `DSVideoConfig.exe`. Then, you can edit `DungeonSiege.ini`, in particular this lines:
+In **Graphics settings** (Windows Settings), browse `C:\Program Files (x86)\Steam\steamapps\common\Dungeon Siege 1\DungeonSiege.exe` and choose **High performance**.
+
+In **File Explorer**, go to `C:\Program Files (x86)\Steam\steamapps\common\Dungeon Siege 1` and run `DSVideoConfig.exe`. Then, you can edit `C:\Users\...\Documents\Dungeon Siege\DungeonSiege.ini`, in particular this lines:
 
 ```ini
-driver_description = Intel(R) UHD Graphics - Hardware TnL
-width = 1920
-height = 1080
+driver_description = Primary Display Driver - Hardware TnL
+width = 1600
+height = 900
 bpp = 32
 ```
 
-Not needed/not working: "Windows Settings > Graphics settings", browse `C:\Program Files (x86)\Steam\steamapps\common\Dungeon Siege 1\DungeonSiege.exe` and choose **High performance** | "File Explorer", right click on the `DungeonSiege.exe` file and select **Troubleshoot compatibility*** (the wizard will select Windows 7 settings) | In Steam, add the launch options `nointro=true` (`width=1920 height=1080` makes the game crash).
+Not needed/not working: "File Explorer", right click on the `DungeonSiege.exe` file and select **Troubleshoot compatibility*** (the wizard will select Windows 7 settings) | In Steam, add the launch options `nointro=true` (`width=1920 height=1080` makes the game crash).
 
 ## Retro games
 
