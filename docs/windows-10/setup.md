@@ -79,6 +79,15 @@
   hostAddressLoopback=true
   ```
 
+  * Configure Visual Studio Code (see [StackOverflow](https://stackoverflow.com/questions/71103966/wsl-vscode-command-returning-error-not-found))
+ 
+  ```bash
+  # assuming Visual Studio Code has been installed on Windows 10 in "C:\Programs\Microsoft VS Code"
+  echo 'export PATH=$PATH:"/mnt/c/Programs/Microsoft VS Code/bin/"' >> ~/.bashrc
+  exec "$SHELL"
+  code .
+  ```
+
 ## Windows optional features
 
 * [OpenSSH](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui#install-openssh-for-windows)
