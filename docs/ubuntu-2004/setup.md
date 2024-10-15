@@ -67,17 +67,15 @@ go version
 ### Node.js & NPM
 
 ```bash
-# installs Node.js & NPM (ref. https://github.com/nodesource/distributions/blob/master/README.md#debinstall)
-curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash - && sudo apt-get install -y nodejs
-node --version
-npm -v
-
 # (optional) removes Node.JS
 sudo apt-get purge nodejs && rm -r /etc/apt/sources.list.d/nodesource.list
 sudo apt autoremove
 
-# installs NVM (ref. https://github.com/nvm-sh/nvm#installing-and-updating)
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+# installs Node.js 20 & NPM (ref. https://nodejs.org/en/download/package-manager)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+nvm install 20
+node -v
+npm -v
 ```
 
 ### PHP
