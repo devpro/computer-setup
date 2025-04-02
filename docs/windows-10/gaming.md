@@ -2,8 +2,9 @@
 
 ## Applications
 
-* [NVIDIA GeForce NOW](https://www.nvidia.com/en-us/geforce-now/download/)
 * Epic Games
+* [GOG GALAXY](https://www.gogalaxy.com/)
+* [NVIDIA GeForce NOW](https://www.nvidia.com/en-us/geforce-now/download/)
 * Steam
 * Ubisoft Connect
 
