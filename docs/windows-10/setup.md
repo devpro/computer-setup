@@ -265,6 +265,8 @@
 * NordVPN
 * [Notepad++](https://notepad-plus-plus.org/)
 * OpenVPN
+* [PDF24 Creator](https://tools.pdf24.org/fr/creator)
+* PeaZip
 * pgAdmin
 * [Podman](https://podman.io/)
   * Download latest stable from [GitHub](https://github.com/containers/podman) releases page
@@ -348,6 +350,7 @@
   * solution found on [GitHub](https://github.com/cmderdev/cmder/issues/69)
   * as indicated in the [faq](https://www.gnu.org/software/wget/faq.html#download) go to [eternallybored.org/misc/wget](https://eternallybored.org/misc/wget/) and download the latest x64 version
   * extract the exe file and copy it in your local cmder installation bin directory
+* WinDirStat
 * [WinMerge](https://winmerge.org/)
 * [yq](https://github.com/mikefarah/yq)
 
@@ -441,6 +444,7 @@ choco install -y notepadplusplus
 * Toad
 * UltraEdit
 * VirtualDub
+* Winace
 * Winamp
 * XML Spy
 
