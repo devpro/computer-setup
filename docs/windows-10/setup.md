@@ -163,7 +163,6 @@
   * Alternative to create a bootable USD drive: [Rufus](https://rufus.ie/) (more functionalities)
     * [Create a bootable USB stick with Rufus on Windows](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview)
 * CPU-Z
-* [Draw.io Desktop](https://github.com/jgraph/drawio-desktop)
 * [Docker Desktop](https://www.docker.com/products/docker-desktop/)
   * Fix permission error (see [Issue #1156](https://github.com/rancher-sandbox/rancher-desktop/issues/1156))
 
@@ -204,10 +203,8 @@
   docker -c win ps
   ```
 
-* [Draw](https://github.com/jgraph/drawio-desktop/releases)
-
+* [Draw Desktop](https://github.com/jgraph/drawio-desktop/releases)
 * FileZilla
-
 * [Git for Windows](https://git-scm.com/download/win)
   * SSH key creation in `Git Bash` (see [Adding a new SSH key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/))
 
@@ -429,7 +426,6 @@ choco install -y notepadplusplus
 * ColorPic
 * DaemonTools
 * Everest Ultimate
-* FileZilla
 * Gadwin PrintScreen
 * HDGraph
 * K-Lite Codec Pack
