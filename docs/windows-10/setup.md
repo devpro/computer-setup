@@ -91,6 +91,7 @@
 ## Windows optional features
 
 * [OpenSSH](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui#install-openssh-for-windows)
+* Raw Image Extension Installer
 
 ## Windows configuration
 
@@ -443,6 +444,7 @@ choco install -y notepadplusplus
 * TestDisk
 * Toad
 * UltraEdit
+* [Unstoppable Copier](https://roadkil.net/program.php?ProgramID=29&Action=NewOSID&DownloadVersion=12&Installer=NO)
 * VirtualDub
 * Winace
 * Winamp
