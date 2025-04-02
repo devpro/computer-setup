@@ -231,8 +231,8 @@
   * Enable experimental features (like dark mode) [chrome://flags](chrome://flags/)
 * [Greenshot](http://getgreenshot.org/downloads/)
 * Java Runtime Environment (JRE)
-* [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/)
-  * [JetBrains Licenses](https://account.jetbrains.com/licenses)
+* [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/) ([JetBrains Licenses](https://account.jetbrains.com/licenses))
+  * GoLand
 * [KeePass](https://keepass.info/)
   * [Plugins](https://keepass.info/plugins.html): `KeePassHttp`
   * [Google extensions](https://chrome.google.com/webstore/category/extensions): `KeePassHttp-Connector`
@@ -245,9 +245,11 @@
     * [Change the temperature from Fahrenheit to Celsius](https://support.microsoft.com/en-au/office/change-the-temperature-from-fahrenheit-to-celsius-8303b0e2-644b-4ac3-954f-a478974b96c8)
     * [Add timezone](https://support.microsoft.com/en-us/office/add-remove-or-change-time-zones-5ab3e10e-5a6c-46af-ab48-156fedf70c04)
 * minikube
+* [Mockoon](https://mockoon.com/)
 * MongoDB Atlas CLI
 * [MongoDB Compass](https://www.mongodb.com/products/compass)
 * [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
+* MySQL Workbench
 * [Node.js & NPM](https://nodejs.org/en/download/)
   * Edit files in nodejs folder to replace "-g" by "--location=global" (see [stackoverflow question #72401421](https://stackoverflow.com/questions/72401421/message-npm-warn-config-global-global-local-are-deprecated-use-loc))
   * Update packages
@@ -260,6 +262,7 @@
   npm install npm@latest -g
   ```
 
+* NordVPN
 * [Notepad++](https://notepad-plus-plus.org/)
 * OpenVPN
 * pgAdmin
