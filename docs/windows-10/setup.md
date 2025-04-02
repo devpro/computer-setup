@@ -204,6 +204,10 @@
   docker -c win ps
   ```
 
+* [Draw](https://github.com/jgraph/drawio-desktop/releases)
+
+* FileZilla
+
 * [Git for Windows](https://git-scm.com/download/win)
   * SSH key creation in `Git Bash` (see [Adding a new SSH key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/))
 
@@ -224,6 +228,7 @@
   ```
 
 * [GitKraken](https://www.gitkraken.com/)
+* [Go](https://go.dev/dl/)
 * Google Chrome
   * Extensions: [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=en-US)
   * Enable experimental features (like dark mode) [chrome://flags](chrome://flags/)
