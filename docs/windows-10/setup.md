@@ -298,7 +298,7 @@
 * [VirtualBox]((https://www.virtualbox.org/wiki/Downloads))
 * [Visual Studio Code](https://code.visualstudio.com/)
   * Extensions: `Angular Language Service`, `CMake Language Support`, `CSS Formatter`, `Debbuger for Firefox`, `Dev Containers`, `Docker`, `EditorConfig for VS Code`, `ESLint`, `Excalidraw`, `Go`, `HashiCorp Terraform`, `Kubernetes`, `Makefile Tools`, `Markdown Table Pretifier`, `markdownlint`, `MongoDB for VS Code`, `PHP Intelephense`, `Playwright Test for VSCode`, `Puppet`, `Python`, `Puppet Debugger`, `Snippets and Syntax Highlight for Gherkin (Cucumber)`, `Tailwind CSS IntelliSense`, `Vue - Official`, `WSL`, `YAML`
-  * User > `setttings.json`:
+  * User > `setttings.json` (`C:\Users\<username>\AppData\Roaming\Code\User\settings.json`):
  
   ```json
   {
@@ -308,7 +308,7 @@
     "[markdown]": {
       "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
     },
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
     "[python]": {
       "editor.formatOnType": true
     },
@@ -321,6 +321,10 @@
     "git.openRepositoryInParentFolders": "never",
     "puppet.installDirectory": "C:\\Programs\\PuppetDevelopmentKit",
     "puppet.installType": "pdk",
+    "go.toolsManagement.autoUpdate": true,
+    "workbench.editorAssociations": {
+      "*.md": "default"
+    },
   }
   ```
 

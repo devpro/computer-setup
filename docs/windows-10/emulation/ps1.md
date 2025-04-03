@@ -10,7 +10,7 @@
 
 > DuckStation is a simulator/emulator (...), focusing on playability, speed, and long-term maintainability. The goal is to be as accurate as possible while maintaining performance suitable for low-end devices. "Hack" options are discouraged, the default configuration should support all playable games with only some of the enhancements having compatibility issues.
 
-→ [duckstation.org](https://www.duckstation.org/) ([GitHub](), [Wiki](https://www.duckstation.org/wiki/Main_Page))
+→ [duckstation.org](https://www.duckstation.org/) ([GitHub](https://github.com/stenzek/duckstation), [Wiki](https://www.duckstation.org/wiki/Main_Page))
 
 #### DuckStation installation
 
@@ -24,13 +24,16 @@
   * In "Enhancement Settings", update Internal Resolution Scale to 9x (fir 4K), Texture Filtering to xBR
   * In "General Settings", check Start Fullscreen
 
+Data files are stored in `C:\Users\...\Documents\DuckStation`.
+
 #### DuckStation shortcuts
 
 * Full screen: `Alt`+`Enter` to exit
 
 ## Disks
 
-Original disks can be saved as iso files on hard drive disks, with free tools like [BurnAware](https://www.burnaware.com/). You may have issues with missing SBI files, you can find them at [psxdatacenter.com](http://psxdatacenter.com/sbifiles.html).
+Original disks can be saved as iso files on hard drive disks, with free tools like [BurnAware](https://www.burnaware.com/).
+You may have issues with missing SBI files, you can find them at [psxdatacenter.com](http://psxdatacenter.com/sbifiles.html).
  
 ## Memory cards
 
@@ -38,10 +41,13 @@ Making a back-up of game saves in memory cards is not intended but there are way
 
 One solution is to use a PS2 console with a preinstalled Free Memory Card Boot (see [PS2 emulation](ps2-emulation.md)). 
 
-Files copied (with `copy` in uLaunchELF) can then be transferred to a PS1 memory card (mcd) with [memcardrex](https://github.com/ShendoXT/memcardrex). The save can then be transferred to DuckStation memory file from DuckStation.
+Files copied (with `copy` in uLaunchELF) can then be transferred to a PS1 memory card (mcd) with [memcardrex](https://github.com/ShendoXT/memcardrex).
+The save can then be transferred to DuckStation memory file from DuckStation.
  
 ## Games
- 
+
+### Best-of
+
 Name                       | Supported
 ---------------------------| ---------
 Boold Omen: Legacy of Kain | Yes

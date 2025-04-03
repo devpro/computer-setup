@@ -40,6 +40,8 @@ Files copied with pcuCopy can then be transferred to a PCSX2 memory card with [m
 
 ## Games
 
+### Best-of
+
 Name                                  | Supported | Fix?
 --------------------------------------|-----------|-----
 Burnout 2: Point of impact            | Yes       |

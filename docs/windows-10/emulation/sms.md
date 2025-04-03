@@ -12,8 +12,8 @@
 
 ### Best-of
 
-Name                       |
--------------------------- |
+Name                       | Year
+---------------------------|-----
 Action Fighter             |
 Alex Kidd In Miracle World |
 Asterix                    |
