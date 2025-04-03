@@ -12,23 +12,28 @@
 
 * [Amiga](emulation/amiga.md)
 * Nintendo
-  * [Nintendo 64](emulation/n64.md)
   * [Super Nintendo](emulation/snes.md)
+  * [Nintendo 64](emulation/n64.md)
 * Sega
   * [SEGA Master System](emulation/sms.md)
 * Sony
   * [Sony PlayStation 1](emulation/ps1.md)
   * [Sony PlayStation 2](emulation/ps2.md)
 
-## Retro games
-
-* [/r/Roms Megathread](https://r-roms.github.io/)
-
 ## Configuration
 
 In **Graphics settings** (Windows Settings), browse for the game exe file and choose **High performance**.
 
 Right click on the exe file file and select **Troubleshoot compatibility*** (the wizard may select Windows 7 settings for old games).
+
+## Savegames
+
+Game                    | Installer | Save location
+------------------------|-----------|--------------------------------------------------------------
+Dungeon Siege           | Steam     | `C:\Users\...\Documents\Dungeon Siege`
+Max Payne 3             | Steam     | `C:\Users\...\Documents\Rockstar Games\Max Payne 3`
+Medal of Honor Airborne | Steam     | `C:\Users\...\Documents\EA Games\Medal of Honor Airborne(tm)`
+GTA IV                  | Steam     | `C:\Users\...\Documents\Rockstar Games\GTA IV`
 
 ## Games
 

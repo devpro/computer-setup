@@ -42,12 +42,14 @@ Files copied (with `copy` in uLaunchELF) can then be transferred to a PS1 memory
  
 ## Games
  
-Name | Supported | Fix? | Links
----- | --------- | ---- | -----
-Boold Omen: Legacy of Kain | Yes | |
-Crash Team racing | Yes | |
-Driver | Yes | |
-Final Fantasy VII | Yes | |
-Final Fantasy VIII | Yes | |
-Rayman 2: The Great Escape | Yes | |
-Soul Blade | Yes | |
+Name                       | Supported
+---------------------------| ---------
+Boold Omen: Legacy of Kain | Yes
+Crash Team racing          | Yes
+Driver                     | Yes
+Final Fantasy VII          | Yes
+Final Fantasy VIII         | Yes
+Rayman 2: The Great Escape | Yes
+Soul Blade                 | Yes
+Tomb Raider III            | Yes
+Vagrant Story              | Yes

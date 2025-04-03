@@ -297,7 +297,7 @@
 * [VLC](https://www.videolan.org/vlc/)
 * [VirtualBox]((https://www.virtualbox.org/wiki/Downloads))
 * [Visual Studio Code](https://code.visualstudio.com/)
-  * Extensions: `CMake Language Support`, `CSS Formatter`, `Debbuger for Firefox`, `Dev Containers`, `Docker`, `EditorConfig for VS Code`, `Go`, `HashiCorp Terraform`, `Kubernetes`, `Markdown Table Pretifier`, `markdownlint`, `MongoDB for VS Code`, `WSL`, `YAML`
+  * Extensions: `Angular Language Service`, `CMake Language Support`, `CSS Formatter`, `Debbuger for Firefox`, `Dev Containers`, `Docker`, `EditorConfig for VS Code`, `ESLint`, `Excalidraw`, `Go`, `HashiCorp Terraform`, `Kubernetes`, `Makefile Tools`, `Markdown Table Pretifier`, `markdownlint`, `MongoDB for VS Code`, `PHP Intelephense`, `Playwright Test for VSCode`, `Puppet`, `Python`, `Puppet Debugger`, `Snippets and Syntax Highlight for Gherkin (Cucumber)`, `Tailwind CSS IntelliSense`, `Vue - Official`, `WSL`, `YAML`
   * User > `setttings.json`:
  
   ```json
