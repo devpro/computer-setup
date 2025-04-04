@@ -7,6 +7,7 @@
 * ~~[VOICEMEETER BANANA Advanced Mixer](https://vb-audio.com/Voicemeeter/banana.htm)~~
   * ~~[How to Setup VoiceMeeter Banana](https://www.youtube.com/watch?v=HfdRjOuZZfk) - May 28, 2021~~
 * ~~[VB-CABLE Virtual Audio Device](https://vb-audio.com/Cable/)~~
+* [Clipchamp](https://clipchamp.com/)
 
 ## Devices
 
