@@ -90,8 +90,15 @@
 
 ## Windows optional features
 
+* AV1 Video Extension
+* HEIC Image Viewer, Converter
+* HEIF Image Extensions
+* HEVC Video Extensions from Device Manufacturer
 * [OpenSSH](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui#install-openssh-for-windows)
-* Raw Image Extension Installer
+* Raw Image Extension
+* Web Media Extensions
+* Web Image Extensions
+* Windows Package Manager Source (winget) V2
 
 ## Windows configuration
 
