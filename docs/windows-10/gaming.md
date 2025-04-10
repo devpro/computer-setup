@@ -56,10 +56,24 @@ Run the game (exe file is located in `C:\Program Files (x86)\Steam\steamapps\com
 
 Buy the game "Grand Theft Auto IV: The Complete Edition" on Steam and install it.
 
+<!--
 Go to [GTA IV: CE – Project Reborn](https://steamcommunity.com/sharedfiles/filedetails/?id=3298411479).
-
 Download the file "GTA IV_ CE – Project Reborn.7z" and unzip it.
-
 Copy the contents to `C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV` (will overwritte some existing files).
+-->
+
+Follow instructions given [ThirteenAG/GTAIV.EFLC.FusionFix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix) (download, extract, copy)
 
 Run the game (exe file is located in `C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV\GTAIV.exe`.
+
+Use auto configure for the graphics settings.
+
+### Mafia III
+
+Buy the game on Steam and install it.
+
+Browse local files (in Manage) from Stream (`C:\Program Files (x86)\Steam\steamapps\common\Mafia III`), open Properties from `Mafia3DefinitiveEdition.exe`.
+
+Check `Disable full-screen optimizations` (and maybe `Run this program as administrator`).
+
+Run the game.
