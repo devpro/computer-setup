@@ -6,7 +6,7 @@
 
 → [fs-uae.net](https://fs-uae.net/) ([GitHub](https://github.com/FrodeSolheim/fs-uae))
 
-Data files are stored in `C:\Users\...\OneDrive - SUSE Software Solutions\Documents\FS-UAE`
+Data files are stored in `C:\Users\...\Documents\FS-UAE`
 
 ## Games
 
