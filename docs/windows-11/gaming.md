@@ -12,8 +12,11 @@ Download the installer from [nexusmods.com](https://www.nexusmods.com/about/vort
 
 Browse the available mods from [Nexus Mods](https://www.nexusmods.com/games/skyrimspecialedition).
 
-Start with (click on the Vortex link after Download on top right):
+Install the mods (click on the Vortex link after Download on top right):
 
 * [Skyrim Script Extender (SKSE64)](https://www.nexusmods.com/skyrimspecialedition/mods/30379?tab=description)
 * [Unofficial Skyrim Special Edition Patch - USSEP](https://www.nexusmods.com/skyrimspecialedition/mods/266)
 * [SkyUI](https://www.nexusmods.com/skyrimspecialedition/mods/12604)
+* [Address Library for SKSE Plugins](https://www.nexusmods.com/skyrimspecialedition/mods/32444)
+
+Run the game from Vortex.
