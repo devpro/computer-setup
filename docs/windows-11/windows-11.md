@@ -26,6 +26,8 @@ Review and update:
 
 ## Utilities
 
+* KeePass
+  * Plugins: [KeeTheme](https://github.com/xatupal/KeeTheme) (dark theme)
 * WinDirStat
 
     ```dos
