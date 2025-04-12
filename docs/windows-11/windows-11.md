@@ -2,9 +2,17 @@
 
 ## Display
 
-Always review and update the refresh rate for every screens!
+### Screens
 
-In System > Display > Advanced display (under Related settings)
+Review and update:
+
+* The refresh rate for every screen.
+
+> Settings (Windows) > System > Display > Advanced display (under Related settings) > Choose a refresh rate
+
+* G-SYNC
+
+> NVIDIA Control Panel > Display > Set up G-SYNC > Enable G-SYNC
 
 ## Utilities
 
