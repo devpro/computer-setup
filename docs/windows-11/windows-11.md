@@ -1,6 +1,14 @@
 # Windows 11
 
-## Display
+## Configuration
+
+### Power options
+
+Open `Control Panel`, `Hardware and Sound`,  `Power Options`, `Sytem Settings`.
+
+In  `Shut-down settings`, check `Hibernate`.
+
+### Display
 
 Review and update:
 
@@ -24,7 +32,9 @@ Review and update:
 
 > Settings (Windows) > System > Display > Graphics > Customised settings for applications
 
-## Utilities
+## Applications
+
+### Utilities
 
 * KeePass
   * Plugins: [KeeTheme](https://github.com/xatupal/KeeTheme) (dark theme)
