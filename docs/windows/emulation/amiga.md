@@ -10,8 +10,6 @@ Download `FS-UAE-Launcher_X.X.XX_Windows_x86-64.zip` and `FS-UAE_X.X.XX_Windows_
 
 Run `.\FS-UAE-Launcher\Windows\x86-64\fs-uae-launcher.exe`.
 
-Run `.\FS-UAE\Windows\x86-64\fs-uae.exe`
-
 Data files are stored in `C:\Users\...\Documents\FS-UAE`
 
 ## Games
