@@ -4,13 +4,15 @@
 
 You'll find here live documentation on how to setup a workstation.
 
-## Ubuntu 20.04
+## Linux
 
-* [**Setup**](docs/ubuntu-2004/setup.md)
+* [Ubuntu 20.04](docs/ubuntu/ubuntu-20_04.md)
+* [Ubuntu 24.04](docs/ubuntu/ubuntu-24_04.md)
 
-## Windows 10
+## Windows
 
-* [Gaming](docs/windows-10/gaming.md)
-* [**Setup**](docs/windows-10/setup.md)
-* [Streaming](docs/windows-10/streaming.md)
-* [Virtualization](docs/windows-10/virtualization.md)
+* [Gaming](docs/windows/gaming.md)
+* [Streaming](docs/windows/streaming.md)
+* [Virtualization](docs/windows/virtualization.md)
+* [Windows 10](docs/windows/windows-10.md)
+* [Windows 11](docs/windows/windows-11.md)

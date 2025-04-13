@@ -1,12 +1,14 @@
-# Gaming on Windows 10
+# Gaming on Windows
 
 ## Applications
 
-* Epic Games
+* EA
+* Epic Games Launcher
 * [GOG GALAXY](https://www.gogalaxy.com/)
 * [NVIDIA GeForce NOW](https://www.nvidia.com/en-us/geforce-now/download/)
 * Steam
 * Ubisoft Connect
+* Xbox
 
 ## Console emulation
 
@@ -19,6 +21,15 @@
 * Sony
   * [PS1 (PlayStation 1)](emulation/ps1.md)
   * [PS2 (PlayStation 2)](emulation/ps2.md)
+
+## Games
+
+* [Dungeon Siege](games/dungean-siege.md)
+* [GTA IV](games/gta-vi.md)
+* [Mafia III](games/mafia-3.md)
+* [Max Payne](games/max-payne-1.md)
+* [Max Payne 2](games/max-payne-2.md)
+* [Skyrim](games/skyrim.md)
 
 ## Manual configuration
 
@@ -37,4 +48,4 @@ Medal of Honor Airborne | Steam     | `C:\Users\...\Documents\EA Games\Medal of 
 
 ### Vortex Mod Manager
 
-Download the installer from [nexusmods.com](https://www.nexusmods.com/about/vortex) (for example `Vortex-1-1-13-7-1737460629.exe`), then install it.
+Download the installer from [nexusmods.com](https://www.nexusmods.com/about/vortex) (for example `Vortex-1-1-13-7-1737460629.exe`), and install it.
