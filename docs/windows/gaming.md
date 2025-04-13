@@ -30,24 +30,11 @@ Right click on the exe file file and select **Troubleshoot compatibility** (the 
 
 Game                    | Installer | Save location
 ------------------------|-----------|--------------------------------------------------------------
-Dungeon Siege           | Steam     | `C:\Users\...\Documents\Dungeon Siege`
 Max Payne 3             | Steam     | `C:\Users\...\Documents\Rockstar Games\Max Payne 3`
 Medal of Honor Airborne | Steam     | `C:\Users\...\Documents\EA Games\Medal of Honor Airborne(tm)`
-GTA IV                  | Steam     | `C:\Users\...\Documents\Rockstar Games\GTA IV`
 
-## Patches
+## Mods
 
-### Dungeon Siege
+### Vortex Mod Manager
 
-Go to `C:\Program Files (x86)\Steam\steamapps\common\Dungeon Siege 1` and run `DSVideoConfig.exe`.
-
-Then, you can edit `C:\Users\...\Documents\Dungeon Siege\DungeonSiege.ini`, in particular this lines:
-
-```ini
-driver_description = Primary Display Driver - Hardware TnL
-width = 1600
-height = 900
-bpp = 32
-```
-
-Run the game (exe file is located in `C:\Program Files (x86)\Steam\steamapps\common\Dungeon Siege 1\DungeonSiege.exe`).
+Download the installer from [nexusmods.com](https://www.nexusmods.com/about/vortex) (for example `Vortex-1-1-13-7-1737460629.exe`), then install it.
