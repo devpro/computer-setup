@@ -36,6 +36,8 @@ Run the game.
 
 ### Max Payne 2
 
+References: [PCGamingWiki](https://www.pcgamingwiki.com/wiki/Max_Payne_2:_The_Fall_of_Max_Payne)
+
 Install from Steam.
 
 Download `MaxPayne2.WidescreenFix.zip` from [ThirteenAG/WidescreenFixesPack](https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/mp2), extract the files in `C:\Program Files (x86)\Steam\steamapps\common\Max Payne 2 The Fall of Max Payne`.
