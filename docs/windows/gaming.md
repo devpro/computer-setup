@@ -6,6 +6,7 @@
 * Epic Games Launcher
 * [GOG GALAXY](https://www.gogalaxy.com/)
 * [NVIDIA GeForce NOW](https://www.nvidia.com/en-us/geforce-now/download/)
+* [Playnite](https://github.com/JosefNemec/Playnite)
 * Steam
 * Ubisoft Connect
 * Xbox
