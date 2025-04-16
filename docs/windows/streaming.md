@@ -8,6 +8,8 @@
   * ~~[How to Setup VoiceMeeter Banana](https://www.youtube.com/watch?v=HfdRjOuZZfk) - May 28, 2021~~
 * ~~[VB-CABLE Virtual Audio Device](https://vb-audio.com/Cable/)~~
 * [Clipchamp](https://clipchamp.com/)
+* [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve)
+* [LosslessCut](https://github.com/mifi/lossless-cut?tab=readme-ov-file#download)
 
 ## Devices
 
