@@ -47,13 +47,13 @@
   ```
 
   * Look at the available options to configure
- 
+
   ```bash
   strings "/mnt/c/Program Files/WSL/wslservice.exe" | egrep "^wsl2\.|^experimental\."
   ```
   
   * Configure WSL in `C:\Users\<username>\.wslconfig` (create the file and restart WSL afterwards)
- 
+
   ```ini
   [wsl2]
   memory=12GB
@@ -80,7 +80,7 @@
   ```
 
   * Configure Visual Studio Code (see [StackOverflow](https://stackoverflow.com/questions/71103966/wsl-vscode-command-returning-error-not-found))
- 
+
   ```bash
   # assuming Visual Studio Code has been installed on Windows 10 in "C:\Programs\Microsoft VS Code"
   echo 'export PATH=$PATH:"/mnt/c/Programs/Microsoft VS Code/bin/"' >> ~/.bashrc
@@ -116,13 +116,13 @@
 
 ## Windows store
 
-- `Microsoft Photos`
-- `Microsoft Clipchamp`
-- `Raw Image Extension`
-  - Can be downloaded from [apps.microsoft.com](https://apps.microsoft.com/detail/9NCTDW2W1BH8)
-- `Ubuntu on Windows`
-  - Once installed, look at [Ubuntu setup]([#ubuntu-2004](https://devpro.github.io/workstation-setup/docs/ubuntu-2004/packages.html))
-  - Open a shell in Ubuntu and create or update `/etc/wsl.conf` file to enable chmod (required for SSH) and avoid issues with npm commands (see [Advanced settings configuration in WSL](https://docs.microsoft.com/en-us/windows/wsl/wsl-config))
+* `Microsoft Photos`
+* `Microsoft Clipchamp`
+* `Raw Image Extension`
+  * Can be downloaded from [apps.microsoft.com](https://apps.microsoft.com/detail/9NCTDW2W1BH8)
+* `Ubuntu on Windows`
+  * Once installed, look at [Ubuntu setup]([#ubuntu-2004](https://devpro.github.io/workstation-setup/docs/ubuntu-2004/packages.html))
+  * Open a shell in Ubuntu and create or update `/etc/wsl.conf` file to enable chmod (required for SSH) and avoid issues with npm commands (see [Advanced settings configuration in WSL](https://docs.microsoft.com/en-us/windows/wsl/wsl-config))
 
   ```ini
   # /etc/wsl.conf
@@ -133,13 +133,13 @@
   appendWindowsPath = false
   ```
 
-  - Restart WSL from Windows
+  * Restart WSL from Windows
 
   ```bash
   wsl --shutdown
   ```
 
-  - Copy SSH key (must be generated before in Windows with Git Bash for example) and review permissions (see [Sharing SSH keys between Windows and WSL 2](https://devblogs.microsoft.com/commandline/sharing-ssh-keys-between-windows-and-wsl-2/))
+  * Copy SSH key (must be generated before in Windows with Git Bash for example) and review permissions (see [Sharing SSH keys between Windows and WSL 2](https://devblogs.microsoft.com/commandline/sharing-ssh-keys-between-windows-and-wsl-2/))
 
   ```bash
   cp -r /mnt/c/Users/<myusername>/.ssh/id_rsa* ~/.ssh/
@@ -149,15 +149,15 @@
   chmod 600 ~/.ssh/id_rsa
   ```
 
-- [Windows Terminal](https://github.com/microsoft/terminal)
-  - Download the msixbundle file from the latest release
-  - Execute in PowerShell `Add-AppxPackage .\Microsoft.WindowsTerminal_Win10_xxx.msixbundle`
+* [Windows Terminal](https://github.com/microsoft/terminal)
+  * Download the msixbundle file from the latest release
+  * Execute in PowerShell `Add-AppxPackage .\Microsoft.WindowsTerminal_Win10_xxx.msixbundle`
 
-- [Winget](https://github.com/microsoft/winget-cli) ([docs](https://docs.microsoft.com/en-us/windows/package-manager/winget/))
-  - Download the msixbundle file and licence from the latest release
-  - Execute in PowerShell `Add-AppxProvisionedPackage -online -PackagePath .\Microsoft.DesktopAppInstaller_xxx.msixbundle -LicensePath .\xxx_License1.xml`
-  - Double check it works with `winget list`
-  - If needed, you can look at the package with `Get-AppxPackage microsoft.desktopappinstaller` and uninstall it with `Remove-AppxPackage -Package Microsoft.DesktopAppInstaller_xxx`
+* [Winget](https://github.com/microsoft/winget-cli) ([docs](https://docs.microsoft.com/en-us/windows/package-manager/winget/))
+  * Download the msixbundle file and licence from the latest release
+  * Execute in PowerShell `Add-AppxProvisionedPackage -online -PackagePath .\Microsoft.DesktopAppInstaller_xxx.msixbundle -LicensePath .\xxx_License1.xml`
+  * Double check it works with `winget list`
+  * If needed, you can look at the package with `Get-AppxPackage microsoft.desktopappinstaller` and uninstall it with `Remove-AppxPackage -Package Microsoft.DesktopAppInstaller_xxx`
 
 ## Applications
 
@@ -304,9 +304,13 @@
 * [VLC](https://www.videolan.org/vlc/)
 * [VirtualBox]((https://www.virtualbox.org/wiki/Downloads))
 * [Visual Studio Code](https://code.visualstudio.com/)
-  * Extensions: `Angular Language Service`, `CMake Language Support`, `CSS Formatter`, `Debbuger for Firefox`, `Dev Containers`, `Docker`, `EditorConfig for VS Code`, `ESLint`, `Excalidraw`, `Go`, `HashiCorp Terraform`, `Kubernetes`, `Makefile Tools`, `Markdown Table Pretifier`, `markdownlint`, `MongoDB for VS Code`, `PHP Intelephense`, `Playwright Test for VSCode`, `Puppet`, `Python`, `Puppet Debugger`, `Snippets and Syntax Highlight for Gherkin (Cucumber)`, `Tailwind CSS IntelliSense`, `Vue - Official`, `WSL`, `YAML`
+  * Extensions:
+  
+     `Angular Language Service`, `CMake Language Support`, `CSS Formatter`, `Debbuger for Firefox`, `Dev Containers`, `Docker`, `EditorConfig for VS Code`, `ESLint`, `Excalidraw`, `Go`, `HashiCorp Terraform`, `Kubernetes`, `Makefile Tools`, `Markdown Table Pretifier`, `markdownlint`, `MongoDB for VS Code`,
+     `PHP Intelephense`, `Playwright Test for VSCode`, `Puppet`, `Python`, `Puppet Debugger`, `Snippets and Syntax Highlight for Gherkin (Cucumber)`, `Tailwind CSS IntelliSense`, `Vue - Official`, `WSL`, `YAML`
+
   * User > `setttings.json` (`C:\Users\<username>\AppData\Roaming\Code\User\settings.json`):
- 
+
   ```json
   {
     "editor.minimap.enabled": false,
