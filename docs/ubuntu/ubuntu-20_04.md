@@ -241,7 +241,7 @@ See also: [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to
 
 #### kubectl
 
-* Official procedure
+- Official procedure
 
 ```bash
 # adds GPG key (ref. https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
@@ -261,7 +261,7 @@ complete -F __start_kubectl k
 
 → [kubernetes.io/docs](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#install-using-native-package-management)
 
-* Azure procedure (to have kubeconfig, mandatory for clusters using Azure RBAC)
+- Azure procedure (to have kubeconfig, mandatory for clusters using Azure RBAC)
 
 ```bash
 sudo az aks install-cli
