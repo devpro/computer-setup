@@ -43,32 +43,3 @@ From Windows 10, connect to the machine:
 ```bash
 ssh <myuser>@<localip>
 ```
-
-### Ubuntu 22.04 Desktop on Hyper-V
-
-Download iso file from [ubuntu.com/download/server](https://ubuntu.com/download/server) (`ubuntu-22.04.4-live-server-amd64.iso` for example).
-
-Set fix IP:
-
-```bash
-ip a
-sudo vi /etc/netplan/01-network-manager-all.yaml
-sudo netplan apply
-```
-
-Example of configuration:
-
-```yaml
-network:
-  version: 2
-  renderer: NetworkManager
-  ethernets:
-    eth0:
-      addresses:
-        - 172.19.147.11/20
-      nameservers:
-        addresses: [8.8.8.8, 8.8.4.4]
-      routes:
-        - to: default
-          via: 172.19.144.1
-```
