@@ -12,11 +12,9 @@
 
 ### Best-of
 
-Name                       | Year
----------------------------|-----
-Action Fighter             |
-Alex Kidd In Miracle World |
-Asterix                    |
-Shinobi                    |
-Sonic The Hedgehog         |
-Sonic The Hedgehog 2       |
+* Action Fighter
+* Alex Kidd In Miracle World
+* Asterix
+* Shinobi
+* Sonic The Hedgehog
+* Sonic The Hedgehog 2

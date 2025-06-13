@@ -42,12 +42,14 @@ Files copied with pcuCopy can then be transferred to a PCSX2 memory card with [m
 
 ### Best-of
 
-Name                                  | Supported | Fix?
---------------------------------------|-----------|-----
-Burnout 2: Point of impact            | Yes       |
-Crash Nitro Kart                      | Yes       |
-God of War                            | Yes       |
-Godfather, The                        | Yes       | Right click on the game in game list, Properties, Graphics, Rendering (check Manual Hardware Renderer Fixes), Hardware Fixes (Skipdraw Range: 1, 1) ([wiki.pcsx2.net](https://wiki.pcsx2.net/The_Godfather))
-Pro Evolution Soccer 6                | Yes       |
-The Lord of the Rings: The Two Towers | Yes       |
-Theme Park World                      | Yes       |
+* Burnout 2: Point of impact
+* Crash Nitro Kart
+* God of War
+* Godfather, The
+* Pro Evolution Soccer 6
+* The Lord of the Rings: The Two Towers
+* Theme Park World
+
+### Fixes
+
+For the Godfather, right click on the game in game list, Properties, Graphics, Rendering (check Manual Hardware Renderer Fixes), Hardware Fixes (Skipdraw Range: 1, 1) ([wiki.pcsx2.net](https://wiki.pcsx2.net/The_Godfather)).

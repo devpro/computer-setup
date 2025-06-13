@@ -8,7 +8,9 @@
 
 ### DuckStation
 
-> DuckStation is a simulator/emulator (...), focusing on playability, speed, and long-term maintainability. The goal is to be as accurate as possible while maintaining performance suitable for low-end devices. "Hack" options are discouraged, the default configuration should support all playable games with only some of the enhancements having compatibility issues.
+> DuckStation is a simulator/emulator (...), focusing on playability, speed, and long-term maintainability.
+> The goal is to be as accurate as possible while maintaining performance suitable for low-end devices.
+> "Hack" options are discouraged, the default configuration should support all playable games with only some of the enhancements having compatibility issues.
 
 → [duckstation.org](https://www.duckstation.org/) ([GitHub](https://github.com/stenzek/duckstation), [Wiki](https://www.duckstation.org/wiki/Main_Page))
 
@@ -34,28 +36,26 @@ Data files are stored in `C:\Users\...\Documents\DuckStation`.
 
 Original disks can be saved as iso files on hard drive disks, with free tools like [BurnAware](https://www.burnaware.com/).
 You may have issues with missing SBI files, you can find them at [psxdatacenter.com](http://psxdatacenter.com/sbifiles.html).
- 
+
 ## Memory cards
 
 Making a back-up of game saves in memory cards is not intended but there are ways to do it.
 
-One solution is to use a PS2 console with a preinstalled Free Memory Card Boot (see [PS2 emulation](ps2-emulation.md)). 
+One solution is to use a PS2 console with a preinstalled Free Memory Card Boot (see [PS2 emulation](ps2-emulation.md)).
 
 Files copied (with `copy` in uLaunchELF) can then be transferred to a PS1 memory card (mcd) with [memcardrex](https://github.com/ShendoXT/memcardrex).
 The save can then be transferred to DuckStation memory file from DuckStation.
- 
+
 ## Games
 
 ### Best-of
 
-Name                       | Supported
----------------------------| ---------
-Boold Omen: Legacy of Kain | Yes
-Crash Team racing          | Yes
-Driver                     | Yes
-Final Fantasy VII          | Yes
-Final Fantasy VIII         | Yes
-Rayman 2: The Great Escape | Yes
-Soul Blade                 | Yes
-Tomb Raider III            | Yes
-Vagrant Story              | Yes
+* Boold Omen: Legacy of Kain
+* Crash Team racing
+* Driver
+* Final Fantasy VII
+* Final Fantasy VIII
+* Rayman 2: The Great Escape
+* Soul Blade
+* Tomb Raider III
+* Vagrant Story

@@ -5,10 +5,3 @@
 ### BNES
 
 → [GitHub](https://github.com/bsnes-emu/bsnes)
-
-## Games
-
-### Best-of
-
-Name                       | Year
----------------------------|-----

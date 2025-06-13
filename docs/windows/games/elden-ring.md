@@ -28,7 +28,7 @@ To uninstall/disable all mods, rename or delete "dinput8.dll".
 
 ## Framerate unlock
 
-> Turn off vsync or any other graphics card setting that may lock the FPS: https://github.com/uberhalit/EldenRingFpsUnlockAndMore?tab=readme-ov-file#follow-these-steps-on-nvidia-see-below-for-gsync﻿ (the mod on the linked page is not mine).
+> Turn off vsync or any other graphics card setting that may lock the FPS: [steps](https://github.com/uberhalit/EldenRingFpsUnlockAndMore?tab=readme-ov-file#follow-these-steps-on-nvidia-see-below-for-gsync) (the mod on the linked page is not mine).
 > Download Elden Mod Loader which will automatically load the mod on startup.
 > If you're having issues, try putting the game into borderless windowed in the game graphics options.
 
