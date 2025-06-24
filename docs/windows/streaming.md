@@ -19,7 +19,7 @@
 
 ### Insta360 Link (webcam)
 
-* Insta360 Link Controller
+* [Insta360 Link Controller](https://www.insta360.com/fr/download/insta360-link)
 
 ### Samsung (monitor)
 
