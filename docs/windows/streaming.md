@@ -21,7 +21,7 @@
 
 * [Insta360 Link Controller](https://www.insta360.com/fr/download/insta360-link)
 
-## NVIDIA GPU
+### NVIDIA GeForce RTX (GPU)
 
 * Download and install [Audio Effects & Video Effects (SDK)](https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-sdk/resources/) to be able to use NVIDIA Background Removal in OBS Studio
 
