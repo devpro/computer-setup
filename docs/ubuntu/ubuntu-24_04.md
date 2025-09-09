@@ -24,6 +24,8 @@ newgrp docker
 docker --version
 docker compose version
 docker run hello-world
+systemctl is-enabled docker.service
+systemctl status docker.service
 ```
 
 ## Software development
