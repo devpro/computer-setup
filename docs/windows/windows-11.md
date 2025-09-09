@@ -32,6 +32,13 @@ wsl --install
 
 Ubuntu is now available in Windows Terminal.
 
+Make sure systemd is enabled:
+
+```bash
+cat /etc/wsl.conf
+stat /sbin/init
+```
+
 [Install Docker](../ubuntu/ubuntu-24_04.md#docker).
 
 ## Applications
