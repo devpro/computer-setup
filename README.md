@@ -5,11 +5,6 @@
 
 You'll find here live documentation on how to setup a workstation.
 
-## Linux
-
-* [Ubuntu 20.04](docs/ubuntu/ubuntu-20_04.md)
-* [Ubuntu 24.04](docs/ubuntu/ubuntu-24_04.md)
-
 ## Windows
 
 * [Gaming](docs/windows/gaming.md)
